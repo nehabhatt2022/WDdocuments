@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">REGISTRATION FORM</h1>
+    <form method="post">
+    <table align="center">
+        <tr>
+            <td><label for="first name" >first name</label></td>
+            <td><input type="text" name="first name" id="first name" </td>
+        </tr>
+        <tr>
+            <td><label for="last name">last name</label></td>
+            <td><input type="text" name="last name" id="last name"></td>
+        </tr>
+        <tr>
+            <td><label for="email">email id</label></td>
+            <td><input type="email" name="email" id="email" placeholder="xxx@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="mobail number">mobail number</label></td>
+            <td><input type="tel" name="mobail number" id="mobail number" placeholder="+91 0000000000" required></td>
+        </tr>
+        <tr>
+            <td><label for="">gender</label></td>
+            <td>
+                <input type="radio" name=gender id="male"><label for="male">male</label>
+                <input type="radio" name="gender" id="female"><label for="female">female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="date">birth date</label></td>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <td><label for="adress">address</label></td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="">city</label></td>
+            <td>
+                <select name="">
+                    <option value="">select</option>
+                    <option value="">botad</option>
+                    <option value="">ahemdabad</option>
+                    <option value="">baroda</option>
+                    <option value="">bhavnagar</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pincode">pincode</label></td>
+            <td><input type="text" name="pincode" id="pincode"></td>
+        </tr>
+        <tr>
+            <td><label for="state">state</label></td>
+            <td><input type="text" name="state" id="state"></td>
+        </tr>
+        <tr>
+            <td><label for="country">country</label></td>
+            <td><input type="text" name="country" id="country"></td>
+        </tr>
+        <tr>
+            <td><label for="hobbies">hobbies</label></td>
+            <td>
+                <input type="checkbox" name="hobb" value="reading" id="reading"><label for="reading">reading</label>
+                <input type="checkbox" name="hobb" value="music" id="music"><label for="music">music</label>
+                <input type="checkbox" name="hobb" value="travelling" id="travelling"><label for="travelling">travelling</label>
+                <input type="checkbox" name="other" value="other" id="other"><label for="other">other</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="qualification">qualification</label></td>
+            <td>
+                <input type="checkbox" name="12th" value="12th" id="12th"><label for="12th">12th</label>
+                <input type="checkbox" name="gratuation" value="graduation" id="graduation"><label for="graduation">graduation</label>
+                <input type="checkbox" name="masters" value="masters" id="masters"><label for="masters">masters</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">course applied</label></td>
+            <td>
+                <input type="radio" name="course applied" id="bca"><label for="bca">bca</label>
+                <input type="radio" name="course applied" id="bba"><label for="bba">bba</label>
+                <input type="radio" name="course applied" id="mca"><label for="mca">mca</label>
+                <input type="radio" name="course applied" id="mscit"><label for="mscit">mscit</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="color">color</label></td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td><label for="">city</label></td>
+            <td>
+                <select name="" multiple>
+                    <option value="">select</option>
+                    <option value="">botad</option>
+                    <option value="">ahemdabad</option>
+                    <option value="">baroda</option>
+                    <option value="">bhavnagar</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="range">range/sound</label></td>
+            <td>
+                <label for="00">00</label>
+                <input type="range" max="100" min="00" value="50">
+                <label for="100">100</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="dateime">date time</label></td>
+            <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+            <td><input type="submit"value="save" name="" id=""></td>
+            <td><input type="reset" value="reset" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="fuel">fuel level</label></td>
+            <td><meter id="fuel" min="00" max="100" low="33" high="66" optimum="80" value="50">
+                at 50/100
+            </meter></td>
+        </tr>
+        <tr>
+            <td><label for="month">month</label></td>
+            <td><input type="month"></td>
+        </tr>
+        <tr>
+            <td><label for="week">week</label></td>
+            <td><input type="week"></td>
+        </tr>
+        <tr>
+            <td><label for="search">search</label></td>
+            <td><input type="search"></td>
+        </tr>
+        <tr>
+            <td><label for="option">list with option</label></td>
+            <td><input type="text" name="" list="ice cream"id="">
+                <datalist id="ice cream">
+                    <option value="chocolete">
+                    <option value="cadbary">
+                    <option value="stobary">
+                    <option value="vanila">
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="url">url</label></td>
+            <td><input type="url"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
