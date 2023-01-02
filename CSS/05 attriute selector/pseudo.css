@@ -1,0 +1,41 @@
+a {
+        color: orangered;
+}
+
+a:link {
+        color: rgb(177, 56, 11);
+}
+
+a:visited {
+        color: rgb(4, 48, 16);
+}
+
+a:active {
+        color: rgb(99, 9, 9);
+}
+
+input:focus {
+        outline: 2px solid rgb(6, 82, 92);
+        border-radius: 2px;
+}
+
+img:hover {
+        width: 250px;
+}
+
+.btn {
+        text-decoration: none;
+        background-color: teal;
+        color: white !important;
+        padding: 5px 20px;
+}
+
+.btn:hover {
+        /* box-shadow: 5px 5px grey; */
+        box-shadow: 3px 3px 15px rgb(235, 13, 13);
+}
+
+label {
+        text-decoration: underline;
+        color: blue;
+}
