@@ -16,14 +16,16 @@ h2::before {
         content: "~";
 }
 
-/* tr:nth-child(3n){
+/*tr:nth-child(3n) {
         background-color: brown;
         color: white;
-    } */
-/* tr:nth-child(3){
+}*/
+
+/*tr:nth-child(3) {
         background-color: brown;
         color: white;
-    } */
+}*/
+
 tr:nth-child(3n+1) {
         background-color: brown;
         color: white;
