@@ -1,0 +1,45 @@
+.container {
+        width: 1200px;
+        margin: 0 auto;
+
+}
+
+
+header {
+        background-image: url('download.png');
+        background-repeat: no-repeat;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+
+
+}
+
+.color {
+        background-color: rgba(238, 196, 10, 0.601);
+        height: 500px;
+}
+
+.text1 h2 {
+        font-size: 35px;
+        text-align: center;
+
+
+}
+
+.text2 h1 {
+        font-size: 75px;
+        text-align: center;
+
+
+}
+
+.text3 h3 {
+        font-size: 20px;
+        text-align: center;
+}
+
+.btn {
+        text-align: center;
+        padding: 25px 10px;
+}

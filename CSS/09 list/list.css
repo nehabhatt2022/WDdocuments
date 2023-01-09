@@ -1,0 +1,8 @@
+div ul li {
+        /*list-style-type: ;
+        list-style-position: ;
+        list-style-image: url(arrow.png);
+        */
+        /* list-style-image: url('./arow.png'); */
+        list-style: circle;
+}
