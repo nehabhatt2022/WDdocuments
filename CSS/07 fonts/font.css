@@ -1,0 +1,121 @@
+.font-family {
+        /* font-family: sans-serif;
+        font-family: serif;*/
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+        src: url(spirax/Spirax-Regular.ttf);
+        font-family: fontlog;
+        font-stretch: expanded;
+        font-stretch: condensed;
+
+}
+
+.font-family1 {
+        font-family: fontlog;
+}
+
+.font-size-200-percent {
+        font-size: 200%;
+}
+
+.font-size-200-em {
+        font-size: 2em
+}
+
+.font-size-200-rem {
+        font-size: 2rem
+}
+
+.font-size-200-px {
+        font-size: 35px
+}
+
+.font-size-200-ch {
+        font-size: 2ch
+}
+
+.font-size-200-cm {
+        font-size: 2cm
+}
+
+.font-size-200-ex {
+        font-size: 2ex
+}
+
+.font-size-200-fr {
+        font-size: 5fr
+}
+
+.font-size-200-in {
+        font-size: 2in
+}
+
+.font-size-200-mm {
+        font-size: 3mm
+}
+
+.font-size-200-pc {
+        font-size: 5pc
+}
+
+.font-size-200-pt {
+        font-size: 35pt
+}
+
+.font-size-200-vh {
+        font-size: 5vh
+}
+
+.font-size-200-vmx {
+        font-size: 5vmax
+}
+
+.font-size-200-vmin {
+        font-size: 5vmin
+}
+
+.font-size-200-vw {
+        font-size: 5vw
+}
+
+.font-style-italic {
+        font-style: italic
+}
+
+.font-style-normal {
+        font-style: normal
+}
+
+.font-style-oblique {
+        font-style: oblique
+}
+
+.font-variant-normal {
+        font-variant: normal
+}
+
+.font-variant-small-caps {
+        font-variant: small-caps
+}
+
+.font-bold {
+        font-weight: bold
+}
+
+.font-bolder {
+        font-weight: bolder
+}
+
+.font-lighter {
+        font-weight: lighter
+}
+
+.font-500 {
+        font-weight: 500
+}
+
+.line-height {
+        line-height: 60px
+}

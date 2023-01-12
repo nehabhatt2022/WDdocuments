@@ -1,0 +1,39 @@
+.border-style-dotted {
+        border: 10px dotted orangered;
+        margin: 30px;
+}
+
+.border-style-dashed {
+        border: 10px dashed orangered;
+        margin: 30px;
+}
+
+.border-style-solid {
+        border: 10px solid orangered;
+        margin: 30px;
+}
+
+.border-style-double {
+        border: 10px double orangered;
+        margin: 30px;
+}
+
+.border-style-groove {
+        border: 10px groove orangered;
+        margin: 30px;
+}
+
+.border-style-ridge {
+        border: 10px ridge orangered;
+        margin: 30px;
+}
+
+.border-style-inset {
+        border: 10px inset orangered;
+        margin: 30px;
+}
+
+.border-style-outset {
+        border: 10px outset orangered;
+        margin: 30px;
+}

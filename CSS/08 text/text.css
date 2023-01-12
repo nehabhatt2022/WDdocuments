@@ -1,0 +1,69 @@
+.text-color {
+        color: brown;
+}
+
+p[class*=text] {
+        width: 200px;
+        margin: 20px;
+        padding: 20px;
+        border: 5px gray solid;
+        box-shadow: 5px;
+}
+
+.text-center {
+        text-align: center;
+}
+
+.text-end {
+        text-align: end;
+}
+
+.text-start {
+        text-align: start;
+}
+
+.text-justify {
+        text-align: justify;
+        border: 1px solid;
+        color: blueviolet;
+}
+
+.text-left {
+        text-align: left;
+}
+
+.text-right {
+        text-align: right;
+}
+
+.text-decor-overline {
+        text-decoration: overline;
+}
+
+.text-decor-underline {
+        text-decoration: underline;
+}
+
+.text-decor-line-through {
+        text-decoration: line-through;
+}
+
+.ident {
+        text-indent: 200px;
+
+}
+
+.word-spacing {
+        word-spacing: 5px;
+}
+
+.letter-spacing {
+        letter-spacing: 10px;
+}
+
+.transformation {
+        text-transform: capitalize;
+        text-transform: lowercase;
+        text-transform: uppercase;
+
+}
