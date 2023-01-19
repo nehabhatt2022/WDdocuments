@@ -1,0 +1,32 @@
+* {
+        font-family: sans-serif;
+}
+
+table {
+        border-collapse: collapse;
+        margin: auto;
+        width: 80%;
+}
+
+table,
+td,
+th {
+        text-align: left;
+        padding: 10px 20 px;
+        border: 1px solid;
+}
+
+thead {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+tr:nth-child(2n+2) {
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.table-responsive {
+        width: 500px;
+        height: 300px;
+        overflow: auto;
+}

@@ -13,14 +13,14 @@ td,
 th {
         border: 1px solid;
         text-align: left;
-        padding: 7px 20px;
+        padding: 10px 20px;
 }
 
 thead {
-        background: linear-gradient(rgba(18, 227, 157, 0.438), rgba(161, 18, 227, 0.438));
-        color: black;
+        background: linear-gradient(blue, yellow);
+
 }
 
-tr:nth-child(3n+1) {
-        background-color: rgb(65, 145, 226);
+tr:nth-child(3n+2) {
+        background-color: cadetblue;
 }
