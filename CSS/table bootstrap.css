@@ -1,0 +1,26 @@
+* {
+        font-family: sans-serif;
+}
+
+table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+}
+
+table,
+td,
+th {
+        border: 1px solid;
+        text-align: left;
+        padding: 7px 20px;
+}
+
+thead {
+        background: linear-gradient(rgba(18, 227, 157, 0.438), rgba(161, 18, 227, 0.438));
+        color: black;
+}
+
+tr:nth-child(3n+1) {
+        background-color: rgb(65, 145, 226);
+}
