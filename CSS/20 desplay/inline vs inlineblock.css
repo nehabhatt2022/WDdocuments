@@ -1,0 +1,19 @@
+.block div {
+        display: block
+}
+
+.inline div {
+        display: inline;
+        border: 1px solid;
+        padding: 50px;
+        background-color: cadetblue;
+        margin: 50px;
+}
+
+.inline-block div {
+        display: inline-block;
+        border: 1px solid;
+        padding: 50px;
+        background-color: brown;
+        margin: 50px;
+}

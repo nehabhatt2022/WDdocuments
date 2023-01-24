@@ -1,0 +1,17 @@
+* {
+        border: 1px solid;
+}
+
+.row {
+
+        display: flex;
+}
+
+.flax-dir-col {
+        display: flex;
+}
+
+.box {
+        flex-direction: column;
+        flex-direction: column-reverse;
+}
