@@ -9,9 +9,29 @@
 
 .flax-dir-col {
         display: flex;
-}
-
-.box {
         flex-direction: column;
         flex-direction: column-reverse;
+
+}
+
+.flax-dir-row {
+        display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+}
+
+.flax-container {
+        align-content: flex-end;
+        height: 100px;
+}
+
+.flax-justify-content {
+        /* justify-content: start; */
+        /* justify-content: end; */
+        /* justify-content: center; */
+        /* justify-content: flex-end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        justify-content: space-evenly;
+        height: 100px;
 }
