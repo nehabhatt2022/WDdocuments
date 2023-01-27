@@ -11,10 +11,7 @@
 
 .container {
         text-align: center;
-        width: 60%;
-        margin: 0 auto;
         line-height: 30px;
-        justify-content: space-evenly;
 }
 
 h1 {
@@ -37,17 +34,20 @@ p {
         font-size: 50px;
         display: flex;
         flex-wrap: wrap;
-        /* width: 10px; */
+        justify-content: center;
 }
 
-/* .icon div { 
-        width: 50px;
-}  */
+.icon div {
+        width: 180px;
+        padding: 10px;
+}
+
 
 .water i {
         background-color: rgb(115, 204, 226);
         border-radius: 50%;
         padding: 15px 20px 15px 20px;
+        ;
 }
 
 .bulb i {
