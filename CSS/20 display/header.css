@@ -1,19 +1,22 @@
 * {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
 }
 
 .main {
         background-image: url(woman-working-on-laptop-computer.png);
-        height: 500px;
-
+        height: 650px;
+        width: 1200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 }
 
 .menu {
         background: rgb(34, 97, 195);
         background: linear-gradient(0deg, rgba(34, 96, 195, 0.67) 0%, rgba(253, 45, 94, 0.655) 100%);
-        height: 500px;
+        height: 650px;
         padding: 20px 0;
 }
 
@@ -30,6 +33,14 @@ ul li {
 .menu ul li a {
         text-decoration: none;
         color: azure;
+
+}
+
+a:hover {
+        background-color: rgba(45, 53, 129, 0.414);
+        border-radius: 50px;
+        box-shadow: 10px 10px 40px rgba(48, 30, 30, 0.552);
+        font-size: 35px;
 }
 
 .header {

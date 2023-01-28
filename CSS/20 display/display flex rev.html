@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                * {
+                        border: 1px solid;
+                }
+
+                .row {
+                        display: flex;
+                        height: 200px;
+
+                }
+
+                .flex-content-align {
+                        align-content: center;
+                }
+
+                .align-items {
+                        align-items: "center";
+                }
+
+                .flex-justify-content {
+                        justify-content: center;
+                        height: 100px;
+                }
+
+                .text-center {
+                        text-align: center;
+                        height: 100px;
+                }
+
+                .text-center div {
+                        width: 200px;
+                }
+        </style>
+</head>
+
+<body>
+        <p>
+
+                The CSS align-content property sets the distribution of space between and around content items along a
+                flexbox's
+                cross-axis or a grid's block axis.
+        </p>
+        <p>
+                The interactive example below uses Grid Layout to demonstrate some of the values of this property.
+        </p>
+        <div class="row flex-content-align">
+                <div class="box">Test1</div>
+                <div class="box">Test2</div>
+                <div class="box">Test3</div>
+                <div class="box">Test4</div>
+                <div class="box">Test5</div>
+        </div>
+        <p>The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it
+                controls the alignment of items on the Cross Axis. In Grid Layout, it controls the alignment of items on
+                the Block Axis within their grid area.</p>
+        <div class="row align-items">
+                <div class="box">Test1</div>
+                <div class="box">Test2</div>
+                <div class="box">Test3</div>
+                <div class="box">Test4</div>
+                <div class="box">Test5</div>
+        </div>
+        <div class="row flex-justify-content ">
+                <div class="box">Test1</div>
+                <div class="box">Test2</div>
+                <div class="box">Test3</div>
+                <div class="box">Test4</div>
+                <div class="box">Test5</div>
+        </div>
+        <div class="row text-center">
+                <div class="box">Test1</div>
+                <div class="box">Test2</div>
+                <div class="box">Test3</div>
+                <div class="box">Test4</div>
+                <div class="box">Test5</div>
+        </div>
+</body>
+
+</html>
