@@ -1,0 +1,46 @@
+* {
+        border: 1px solid;
+}
+
+.wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+        background-color: rgba(165, 42, 42, 0.337);
+        grid-column: 1/3;
+        grid-row: 1;
+}
+
+.two {
+        background-color: rgba(0, 0, 255, 0.336);
+        grid-column: 2/4;
+        grid-row: 1/3;
+}
+
+.three {
+        background-color: rgba(95, 158, 160, 0.393);
+        grid-column: 1;
+        grid-row: 2/5;
+}
+
+.four {
+        background-color: rgba(255, 127, 80, 0.27);
+        grid-column: 3;
+        grid-row: 3;
+}
+
+.five {
+        background-color: rgba(218, 165, 32, 0.389);
+        grid-column: 2;
+        grid-row: 4;
+}
+
+.six {
+        background-color: rgba(47, 79, 79, 0.384);
+        grid-column: 3;
+        grid-row: 4;
+}
