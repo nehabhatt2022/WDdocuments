@@ -1,0 +1,15 @@
+/* * {
+        border: 1px solid;
+} */
+.img {
+        columns: 3;
+        column-gap: 10px;
+}
+
+img {
+        width: 100%;
+}
+
+img {
+        aspect-ratio: 3/2;
+}
