@@ -1,7 +1,8 @@
 * {
-        margin: 10px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
+
 }
 
 .main {
@@ -11,92 +12,80 @@
 
 .container {
         text-align: center;
+        padding-top: 10px;
         line-height: 30px;
 }
 
 h1 {
-        padding-top: 40px;
         color: black;
-        font-size: 40PX;
+        font-size: 25px;
 }
 
 h2 {
-        color: rgb(249, 64, 64);
-        font-size: 40px;
+        color: rgb(241, 17, 17);
+        font-size: 25px;
 }
 
 p {
-        color: rgb(68, 66, 66);
+        color: rgb(56, 42, 42);
         font-size: 20px;
+        padding: 10px;
 }
 
 .icon {
-        font-size: 50px;
         display: flex;
         flex-wrap: wrap;
+        font-size: 50px;
         justify-content: center;
 }
 
 .icon div {
-        width: 180px;
-        padding: 10px;
+        width: 220px;
 }
 
-div i {
-        justify-content: center;
+.icon div {
+        text-align: center;
+}
+
+i {
+        border: 2px solid;
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+        color: aliceblue;
 }
 
 .water i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
-        ;
+        background-color: rgb(38, 208, 251);
 }
 
 .bulb i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(248, 206, 37);
 }
 
 .fire i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(247, 79, 7);
 }
 
 .mobail i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(235, 88, 88);
 }
 
 .radio i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(63, 124, 161);
 }
 
 .home i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(250, 2, 2);
 }
 
 .symbol i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(5, 244, 45);
 }
 
 .book i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(63, 193, 226);
 }
 
 .cart i {
-        background-color: rgb(115, 204, 226);
-        border-radius: 50%;
-        padding: 15px 20px 15px 20px;
+        background-color: rgb(56, 67, 75);
 }

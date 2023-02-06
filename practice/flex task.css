@@ -1,0 +1,102 @@
+* {
+        margin: 10px;
+        padding: 0px;
+        box-sizing: border-box;
+}
+
+.main {
+        height: 520px;
+        background-color: rgba(167, 244, 218, 0.732);
+}
+
+.container {
+        text-align: center;
+        line-height: 30px;
+}
+
+h1 {
+        padding-top: 40px;
+        color: black;
+        font-size: 40PX;
+}
+
+h2 {
+        color: rgb(249, 64, 64);
+        font-size: 40px;
+}
+
+p {
+        color: rgb(68, 66, 66);
+        font-size: 20px;
+}
+
+.icon {
+        font-size: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.icon div {
+        width: 180px;
+        padding: 10px;
+}
+
+div i {
+        justify-content: center;
+}
+
+.water i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+        ;
+}
+
+.bulb i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
+
+.fire i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
+
+.mobail i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
+
+.radio i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
+
+.home i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
+
+.symbol i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
+
+.book i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
+
+.cart i {
+        background-color: rgb(115, 204, 226);
+        border-radius: 50%;
+        padding: 15px 20px 15px 20px;
+}
