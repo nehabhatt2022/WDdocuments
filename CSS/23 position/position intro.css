@@ -1,0 +1,34 @@
+.something {
+        /* top: 50px; */
+        margin-top: 50px;
+}
+
+.posi {
+        position: relative;
+        top: 50px;
+}
+
+.posi-ab {
+        position: absolute;
+        top: 100px;
+        background-color: grey;
+}
+
+.posi-re {
+        position: relative;
+        top: 100px;
+        color: white;
+        background-color: rgb(23, 82, 96);
+}
+
+.posi-fixed {
+        position: fixed;
+        top: 20px;
+        background-color: tan;
+}
+
+.posi-sticky {
+        position: sticky;
+        background-color: turquoise;
+        top: 50px;
+}

@@ -1,0 +1,31 @@
+.container {
+        width: 1140px;
+        margin: 0 auto;
+}
+
+.row {
+        display: flex;
+}
+
+img {
+        width: 100%;
+}
+
+.posi-img {
+        position: absolute;
+        width: 100px;
+        height: auto;
+        left: 22%;
+        top: -8px;
+}
+
+.card img:hover {
+        width: 110%;
+        left: 22%;
+        top: -8px;
+        box-shadow: 5px 5px 8px grey;
+}
+
+.card {
+        position: relative;
+}

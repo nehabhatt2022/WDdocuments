@@ -1,0 +1,19 @@
+* {
+        border: 1px solid;
+        margin: 0;
+        padding: 0;
+}
+
+.fl-l {
+        float: left;
+}
+
+.fl-r {
+        float: right;
+}
+
+.clear {
+        /* clear: left; */
+        /* clear: right; */
+        clear: both;
+}

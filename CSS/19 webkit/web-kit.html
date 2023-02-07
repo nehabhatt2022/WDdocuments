@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <p>More recently, I have been seeing questions with the tag "webkit". Such questions usually tend to be
+                web-based
+                questions relating to CSS, jQuery, layouts, cross-browers compatibility issues, etc...</p>
+        <p>
+                So what is this "webkit" and how does it relate to CSS? I have also noticed a lot of -webkit-...
+                properties in
+                the source code for various websites. Are these two related?</p>
+        <h2>Update</h2>
+        <p>So from the answers so far... WebKit is a HTML/CSS web browser rendering engine for Safari/Chrome. Are there
+                such engines for IE/Opera/Firefox and what are the differences, pros and cons of using one over the
+                other? Can I use WebKit features in Firefox for example?
+        </p>
+        <p>All of the major browsers use different rendering engines. I guess this is a big reason why there are so many
+                cross-browser compatibility issues!
+        </p>
+        <p>So, is there some kind of project or movement to a standard rendering engine that ALL browsers will use? Will
+                HTML5 bring an end to the cross-browser compatibility issues?
+
+        </p>
+        <p>
+                -webkit- (Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS);
+                basically, any WebKit based browser)
+        </p>
+        <p>
+                -moz- (Firefox)
+        </p>
+        <p>
+                -o- (Old, pre-WebKit, versions of Opera)
+        </p>
+
+
+        -ms- (Internet Explorer and Microsoft Edge)
+        <ul>
+                <li><del>IE → <a href="http://en.wikipedia.org/wiki/Trident_%28layout_engine%29"
+                                        rel="noreferrer">Trident</a></del> (discontinued)</li>
+                <li>Edge → <del><a href="https://en.wikipedia.org/wiki/EdgeHTML" rel="noreferrer">EdgeHTML</a> (clean-up
+                                fork of
+                                Trident)</del> (Edge switched to <a
+                                href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29" rel="noreferrer">Blink</a>
+                        in 2019)</li>
+                <li>Firefox → <a href="http://en.wikipedia.org/wiki/Gecko_%28layout_engine%29"
+                                rel="noreferrer">Gecko</a></li>
+                <li><del>Opera → <a href="http://en.wikipedia.org/wiki/Presto_%28layout_engine%29"
+                                        rel="noreferrer">Presto</a></del> (no longer uses Presto since Feb 2013,
+                        consider Opera = Chrome,
+                        therefore <a href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29"
+                                rel="noreferrer">Blink</a>
+                        nowadays)</li>
+                <li>Safari → <a href="http://en.wikipedia.org/wiki/WebKit" rel="noreferrer">WebKit</a></li>
+                <li>Chrome → <a href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29" rel="noreferrer">Blink</a>
+                        (a fork
+                        of <a href="http://en.wikipedia.org/wiki/WebKit" rel="noreferrer">Webkit</a>).</li>
+        </ul>
+        <ul>
+                <li><strong>IE</strong>
+
+                        <ul>
+                                <li>Engine: <a href="https://en.wikipedia.org/wiki/Trident_%28layout_engine%29"
+                                                rel="noreferrer">Trident</a></li>
+                                <li>CSS-prefix: <code>-ms</code></li>
+                        </ul>
+                </li>
+                <li><strong>Edge</strong>
+
+                        <ul>
+                                <li>Engine: <s><a href="https://en.wikipedia.org/wiki/EdgeHTML"
+                                                        rel="noreferrer">EdgeHTML</a></s> → <a
+                                                href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29"
+                                                rel="noreferrer">Blink</a><sup>3</sup></li>
+                                <li>CSS-prefix: <code>-ms</code></li>
+                        </ul>
+                </li>
+                <li><strong>Firefox</strong>
+
+                        <ul>
+                                <li>Engine: <a href="https://en.wikipedia.org/wiki/Gecko_%28software%29"
+                                                rel="noreferrer">Gecko</a></li>
+                                <li>CSS-prefix: <code>-moz</code></li>
+                        </ul>
+                </li>
+                <li><strong>Opera</strong>
+
+                        <ul>
+                                <li>Engine: <s><a href="https://en.wikipedia.org/wiki/Presto_%28layout_engine%29"
+                                                        rel="noreferrer">Presto</a></s> → <a
+                                                href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29"
+                                                rel="noreferrer">Blink</a><sup>1</sup></li>
+                                <li>CSS-prefix: <code>-o</code> (Presto) and <code>-webkit</code> (Blink)</li>
+                        </ul>
+                </li>
+                <li><strong>Safari</strong>
+
+                        <ul>
+                                <li>Engine: <a href="https://en.wikipedia.org/wiki/WebKit" rel="noreferrer">WebKit</a>
+                                </li>
+                                <li>CSS-prefix: <code>-webkit</code></li>
+                        </ul>
+                </li>
+                <li><strong>Chrome</strong>
+
+                        <ul>
+                                <li>Engine: <s><a href="https://en.wikipedia.org/wiki/WebKit"
+                                                        rel="noreferrer">WebKit</a></s> → <a
+                                                href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29"
+                                                rel="noreferrer">Blink</a><sup>2</sup></li>
+                                <li>CSS-prefix: <code>-webkit</code></li>
+                        </ul>
+                </li>
+        </ul>
+
+        <ul class="propertyList webkit">
+                <li><a href="/property/-webkit-animation" class="property"
+                                data-description="Combines common animation properties into a single property."
+                                aria-describedby="ui-tooltip-0">-webkit-animation</a></li>
+                <li><a href="/property/-webkit-animation-delay" class="property"
+                                data-description="Defines when an animation starts.">-webkit-animation-delay</a></li>
+                <li><a href="/property/-webkit-animation-direction" class="property"
+                                data-description="Determines whether the animation should play in reverse on alternate iterations.">-webkit-animation-direction</a>
+                </li>
+                <li><a href="/property/-webkit-animation-duration" class="property"
+                                data-description="Specifies the length of time that an animation takes to complete one iteration.">-webkit-animation-duration</a>
+                </li>
+                <li><a href="/property/-webkit-animation-fill-mode" class="property"
+                                data-description="Specifies whether the effects of an animation are apparent before the animation starts and after it ends.">-webkit-animation-fill-mode</a>
+                </li>
+                <li><a href="/property/-webkit-animation-iteration-count" class="property"
+                                data-description="Specifies the number of times an animation iterates.">-webkit-animation-iteration-count</a>
+                </li>
+                <li><a href="/property/-webkit-animation-name" class="property"
+                                data-description="Specifies the name of an animation.">-webkit-animation-name</a></li>
+                <li><a href="/property/-webkit-animation-play-state" class="property"
+                                data-description="Determines whether the animation is running or paused."
+                                aria-describedby="ui-tooltip-7">-webkit-animation-play-state</a></li>
+                <li><a href="/property/-webkit-animation-timing-function" class="property"
+                                data-description="Defines how an animation progresses between keyframes."
+                                aria-describedby="ui-tooltip-8">-webkit-animation-timing-function</a></li>
+                <li><a href="/property/-webkit-appearance" class="property"
+                                data-description="Changes the appearance of buttons and other controls to resemble native controls.">-webkit-appearance</a>
+                </li>
+                <li><a href="/property/-webkit-backface-visibility" class="property"
+                                data-description="Determines whether or not a transformed element is visible when it is not facing the screen.">-webkit-backface-visibility</a>
+                </li>
+                <li><a href="/property/-webkit-background-clip" class="property"
+                                data-description="Specifies the clipping behavior of the background of a box.">-webkit-background-clip</a>
+                </li>
+                <li><a href="/property/-webkit-background-composite" class="property"
+                                data-description="Sets a compositing style for background images and colors.">-webkit-background-composite</a>
+                </li>
+                <li><a href="/property/-webkit-background-origin" class="property"
+                                data-description="Determines where the background-position property is anchored.">-webkit-background-origin</a>
+                </li>
+                <li><a href="/property/-webkit-background-size" class="property"
+                                data-description="Overrides the size of a background image.">-webkit-background-size</a>
+                </li>
+                <li><a href="/property/-webkit-border-bottom-left-radius" class="property"
+                                data-description="Specifies that the bottom-left corner of a box be rounded with the specified radius.">-webkit-border-bottom-left-radius</a>
+                </li>
+                <li><a href="/property/-webkit-border-bottom-right-radius" class="property"
+                                data-description="Specifies that the bottom-right corner of a box be rounded with the specified radius.">-webkit-border-bottom-right-radius</a>
+                </li>
+                <li><a href="/property/-webkit-border-horizontal-spacing" class="property"
+                                data-description="Defines the spacing between the horizontal portion of an element’s border and the content within.">-webkit-border-horizontal-spacing</a>
+                </li>
+                <li><a href="/property/-webkit-border-image" class="property"
+                                data-description="Specifies an image as the border for a box.">-webkit-border-image</a>
+                </li>
+                <li><a href="/property/-webkit-border-radius" class="property"
+                                data-description="Specifies that the corners of a box be rounded with the specified radius."
+                                aria-describedby="ui-tooltip-19">-webkit-border-radius</a></li>
+                <li><a href="/property/-webkit-border-top-left-radius" class="property"
+                                data-description="Specifies that the top-left corner of a box be rounded with the specified radius.">-webkit-border-top-left-radius</a>
+                </li>
+                <li><a href="/property/-webkit-border-top-right-radius" class="property"
+                                data-description="Specifies that the top-right corner of a box be rounded with the specified radius.">-webkit-border-top-right-radius</a>
+                </li>
+                <li><a href="/property/-webkit-border-vertical-spacing" class="property"
+                                data-description="Defines the spacing between the vertical portion of an element’s border and the content within.">-webkit-border-vertical-spacing</a>
+                </li>
+                <li><a href="/property/-webkit-box-align" class="property"
+                                data-description="Specifies the alignment of nested elements within an outer flexible box element.">-webkit-box-align</a>
+                </li>
+                <li><a href="/property/-webkit-box-direction" class="property"
+                                data-description="Specifies the direction in which child elements of a flexible box element are laid out.">-webkit-box-direction</a>
+                </li>
+                <li><a href="/property/-webkit-box-flex" class="property"
+                                data-description="Specifies an element’s flexibility.">-webkit-box-flex</a></li>
+                <li><a href="/property/-webkit-box-flex-group" class="property"
+                                data-description="Specifies groups of dynamically resizing elements that are adjusted to be the same size.">-webkit-box-flex-group</a>
+                </li>
+                <li><a href="/property/-webkit-box-lines" class="property"
+                                data-description="Specifies whether a flexible box should contain multiple lines of content.">-webkit-box-lines</a>
+                </li>
+                <li><a href="/property/-webkit-box-ordinal-group" class="property"
+                                data-description="Specifies a rough ordering of elements in a flexible box.">-webkit-box-ordinal-group</a>
+                </li>
+                <li><a href="/property/-webkit-box-orient" class="property"
+                                data-description="Specifies the layout of elements nested within a flexible box element.">-webkit-box-orient</a>
+                </li>
+                <li><a href="/property/-webkit-box-pack" class="property"
+                                data-description="Specifies alignment of child elements within the current element in the direction of orientation.">-webkit-box-pack</a>
+                </li>
+                <li><a href="/property/-webkit-box-reflect" class="property"
+                                data-description="Defines a reflection of a border box.">-webkit-box-reflect</a></li>
+                <li><a href="/property/-webkit-box-shadow" class="property"
+                                data-description="Applies a drop shadow effect to the border box of an object.">-webkit-box-shadow</a>
+                </li>
+                <li><a href="/property/-webkit-box-sizing" class="property"
+                                data-description="Specifies that the size of a box be measured according to either its content (default) or its total size including borders.">-webkit-box-sizing</a>
+                </li>
+                <li><a href="/property/-webkit-column-break-after" class="property"
+                                data-description="Determines whether a column break can and should occur after an element in a multicolumn flow layout.">-webkit-column-break-after</a>
+                </li>
+                <li><a href="/property/-webkit-column-break-before" class="property"
+                                data-description="Determines whether a column break can and should occur before an element in a multicolumn flow layout.">-webkit-column-break-before</a>
+                </li>
+                <li><a href="/property/-webkit-column-break-inside" class="property"
+                                data-description="Determines whether a column break should be avoided within the bounds of an element in a multicolumn flow layout.">-webkit-column-break-inside</a>
+                </li>
+                <li><a href="/property/-webkit-column-count" class="property"
+                                data-description="Specifies the number of columns desired in a multicolumn flow.">-webkit-column-count</a>
+                </li>
+                <li><a href="/property/-webkit-column-gap" class="property"
+                                data-description="Specifies the space between columns in a multicolumn flow.">-webkit-column-gap</a>
+                </li>
+                <li><a href="/property/-webkit-column-rule" class="property"
+                                data-description="Specifies the color, style, and width of the column rule.">-webkit-column-rule</a>
+                </li>
+                <li><a href="/property/-webkit-column-rule-color" class="property"
+                                data-description="Specifies the color of the column rule.">-webkit-column-rule-color</a>
+                </li>
+                <li><a href="/property/-webkit-column-rule-style" class="property"
+                                data-description="Specifies the style of the column rule.">-webkit-column-rule-style</a>
+                </li>
+                <li><a href="/property/-webkit-column-rule-width" class="property"
+                                data-description="Specifies the width of the column rule.">-webkit-column-rule-width</a>
+                </li>
+                <li><a href="/property/-webkit-column-width" class="property"
+                                data-description="Specifies the width of the column in a multicolumn flow.">-webkit-column-width</a>
+                </li>
+                <li><a href="/property/-webkit-columns" class="property"
+                                data-description="A composite property that specifies the width and number of columns in a multicolumn flow layout.">-webkit-columns</a>
+                </li>
+                <li><a href="/property/-webkit-dashboard-region" class="property"
+                                data-description="Specifies the behavior of regions in a Dashboard widget.">-webkit-dashboard-region</a>
+                </li>
+                <li><a href="/property/-webkit-line-break" class="property"
+                                data-description="Specifies line-breaking rules for CJK (Chinese, Japanese, and Korean) text.">-webkit-line-break</a>
+                </li>
+                <li><a href="/property/-webkit-margin-bottom-collapse" class="property"
+                                data-description="Specifies the behavior of an element’s bottom margin if it is adjacent to an element with a margin. Elements can maintain their respective margins or share a single margin between them.">-webkit-margin-bottom-collapse</a>
+                </li>
+                <li><a href="/property/-webkit-margin-collapse" class="property"
+                                data-description="Specifies the behavior of an element’s vertical margins if it is adjacent to an element with a margin. Elements can maintain their respective margins or share a single margin between them.">-webkit-margin-collapse</a>
+                </li>
+                <li><a href="/property/-webkit-margin-start" class="property"
+                                data-description="Provides the width of the starting margin.">-webkit-margin-start</a>
+                </li>
+                <li><a href="/property/-webkit-margin-top-collapse" class="property"
+                                data-description="Specifies the behavior of an element’s top margin if it is adjacent to an element with a margin. Elements can maintain their respective margins or share a single margin between them.">-webkit-margin-top-collapse</a>
+                </li>
+                <li><a href="/property/-webkit-marquee" class="property"
+                                data-description="Defines properties for showing content as though displayed on an electronic marquee sign.">-webkit-marquee</a>
+                </li>
+                <li><a href="/property/-webkit-marquee-direction" class="property"
+                                data-description="Specifies the direction of motion for a marquee box.">-webkit-marquee-direction</a>
+                </li>
+                <li><a href="/property/-webkit-marquee-increment" class="property"
+                                data-description="Defines the distance the marquee moves in each increment.">-webkit-marquee-increment</a>
+                </li>
+                <li><a href="/property/-webkit-marquee-repetition" class="property"
+                                data-description="Specifies the number of times a marquee box repeats (or infinite).">-webkit-marquee-repetition</a>
+                </li>
+                <li><a href="/property/-webkit-marquee-speed" class="property"
+                                data-description="Defines the scroll or slide speed of a marquee box.">-webkit-marquee-speed</a>
+                </li>
+                <li><a href="/property/-webkit-marquee-style" class="property"
+                                data-description="Specifies the style of marquee motion.">-webkit-marquee-style</a></li>
+                <li><a href="/property/-webkit-mask" class="property"
+                                data-description="Defines a variety of mask properties within one declaration.">-webkit-mask</a>
+                </li>
+                <li><a href="/property/-webkit-mask-attachment" class="property"
+                                data-description="Defines the scrolling or fixed nature of the image mask.">-webkit-mask-attachment</a>
+                </li>
+                <li><a href="/property/-webkit-mask-box-image" class="property"
+                                data-description="Defines an image to be used as a mask for a border box.">-webkit-mask-box-image</a>
+                </li>
+                <li><a href="/property/-webkit-mask-clip" class="property"
+                                data-description="Specifies whether the mask should extend into the border of a box.">-webkit-mask-clip</a>
+                </li>
+                <li><a href="/property/-webkit-mask-composite" class="property"
+                                data-description="Sets a compositing style for a mask.">-webkit-mask-composite</a></li>
+                <li><a href="/property/-webkit-mask-image" class="property"
+                                data-description="Defines an image to be used as a mask for an element.">-webkit-mask-image</a>
+                </li>
+                <li><a href="/property/-webkit-mask-origin" class="property"
+                                data-description="Determines where the -webkit-mask-position property is anchored.">-webkit-mask-origin</a>
+                </li>
+                <li><a href="/property/-webkit-mask-position" class="property"
+                                data-description="Defines the position of a mask.">-webkit-mask-position</a></li>
+                <li><a href="/property/-webkit-mask-position-x" class="property"
+                                data-description="Defines the x-coordinate of the position of a mask.">-webkit-mask-position-x</a>
+                </li>
+                <li><a href="/property/-webkit-mask-position-y" class="property"
+                                data-description="Defines the y-coordinate of the position of a mask.">-webkit-mask-position-y</a>
+                </li>
+                <li><a href="/property/-webkit-mask-repeat" class="property"
+                                data-description="Defines the repeating qualities of a mask.">-webkit-mask-repeat</a>
+                </li>
+                <li><a href="/property/-webkit-mask-size" class="property"
+                                data-description="Overrides the size of a mask.">-webkit-mask-size</a></li>
+                <li><a href="/property/-webkit-nbsp-mode" class="property"
+                                data-description="Defines the behavior of nonbreaking spaces within text.">-webkit-nbsp-mode</a>
+                </li>
+                <li><a href="/property/-webkit-padding-start" class="property"
+                                data-description="Provides the width of the starting padding.">-webkit-padding-start</a>
+                </li>
+                <li><a href="/property/-webkit-perspective" class="property"
+                                data-description="Gives depth to a scene, causing elements farther away from the viewer to appear smaller.">-webkit-perspective</a>
+                </li>
+                <li><a href="/property/-webkit-perspective-origin" class="property"
+                                data-description="Sets the origin of the -webkit-perspective property.">-webkit-perspective-origin</a>
+                </li>
+                <li><a href="/property/-webkit-rtl-ordering" class="property"
+                                data-description="Overrides ordering defaults for right-to-left content.">-webkit-rtl-ordering</a>
+                </li>
+                <li><a href="/property/-webkit-tap-highlight-color" class="property"
+                                data-description="Overrides the highlight color shown when the user taps a link or a JavaScript clickable element in Safari on iPhone.">-webkit-tap-highlight-color</a>
+                </li>
+                <li><a href="/property/-webkit-text-fill-color" class="property"
+                                data-description="Specifies a fill color for text.">-webkit-text-fill-color</a></li>
+                <li><a href="/property/-webkit-text-security" class="property"
+                                data-description="Specifies the shape to use in place of letters in a password input field.">-webkit-text-security</a>
+                </li>
+                <li><a href="/property/-webkit-text-size-adjust" class="property"
+                                data-description="Specifies a size adjustment for displaying text content in Safari on iPhone.">-webkit-text-size-adjust</a>
+                </li>
+                <li><a href="/property/-webkit-text-stroke" class="property"
+                                data-description="Specifies the width and color of the outline (stroke) of text.">-webkit-text-stroke</a>
+                </li>
+                <li><a href="/property/-webkit-text-stroke-color" class="property"
+                                data-description="Specifies the color of the outline (stroke) of text.">-webkit-text-stroke-color</a>
+                </li>
+                <li><a href="/property/-webkit-text-stroke-width" class="property"
+                                data-description="Specifies the width for the text outline.">-webkit-text-stroke-width</a>
+                </li>
+                <li><a href="/property/-webkit-touch-callout" class="property"
+                                data-description="Disables the default callout shown when you touch and hold a touch target.">-webkit-touch-callout</a>
+                </li>
+                <li><a href="/property/-webkit-transform" class="property"
+                                data-description="Specifies transformations to be applied to an element.">-webkit-transform</a>
+                </li>
+                <li><a href="/property/-webkit-transform-origin" class="property"
+                                data-description="Sets the origin for the <code>-webkit-transform</code> property.">-webkit-transform-origin</a>
+                </li>
+                <li><a href="/property/-webkit-transform-origin-x" class="property"
+                                data-description="The x coordinate of the origin for transforms applied to an element with respect to its border box.">-webkit-transform-origin-x</a>
+                </li>
+                <li><a href="/property/-webkit-transform-origin-y" class="property"
+                                data-description="The y coordinate of the origin for transforms applied to an element with respect to its border box.">-webkit-transform-origin-y</a>
+                </li>
+                <li><a href="/property/-webkit-transform-origin-z" class="property"
+                                data-description="The z coordinate of the origin for transforms applied to an element with respect to its border box.">-webkit-transform-origin-z</a>
+                </li>
+                <li><a href="/property/-webkit-transform-style" class="property"
+                                data-description="Defines how nested, transformed elements are rendered in 3D space.">-webkit-transform-style</a>
+                </li>
+                <li><a href="/property/-webkit-transition" class="property"
+                                data-description="Combines <code>-webkit-transition-delay</code>, <code>-webkit-transition-duration</code>, <code>-webkit-transition-property</code>, and <code>-webkit-transition-timing-function</code> into a single property.">-webkit-transition</a>
+                </li>
+                <li><a href="/property/-webkit-transition-delay" class="property"
+                                data-description="Defines when the transition starts.">-webkit-transition-delay</a></li>
+                <li><a href="/property/-webkit-transition-duration" class="property"
+                                data-description="Defines how long the transition from the old value to the new value should take.">-webkit-transition-duration</a>
+                </li>
+                <li><a href="/property/-webkit-transition-property" class="property"
+                                data-description="Specifies the name of the CSS property to which the transition is applied.">-webkit-transition-property</a>
+                </li>
+                <li><a href="/property/-webkit-transition-timing-function" class="property"
+                                data-description="Specifies how the intermediate values used during a transition are calculated.">-webkit-transition-timing-function</a>
+                </li>
+                <li><a href="/property/-webkit-user-drag" class="property"
+                                data-description="Specifies that an entire element should be draggable instead of its contents.">-webkit-user-drag</a>
+                </li>
+                <li><a href="/property/-webkit-user-modify" class="property"
+                                data-description="Determines whether a user can edit the content of an element.">-webkit-user-modify</a>
+                </li>
+                <li><a href="/property/-webkit-user-select" class="property"
+                                data-description="Determines whether a user can select the content of an element.">-webkit-user-select</a>
+                </li>
+        </ul>
+</body>
+
+</html>
