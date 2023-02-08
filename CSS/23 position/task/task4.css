@@ -1,0 +1,47 @@
+* {
+        background-color: black;
+        box-sizing: border-box;
+
+}
+
+.main img {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.img1 {
+        top: 95px;
+        left: 500px;
+}
+
+.img2 {
+        top: 200px;
+        left: 345px;
+}
+
+.img3 {
+        top: 300px;
+        left: 500px;
+}
+
+.img4 {
+        top: 200px;
+        left: 655px;
+}
+
+.img5 {
+        top: 505px;
+        left: 500px;
+}
+
+.img6 {
+        top: 405px;
+        left: 345px;
+}
+
+.img7 {
+        top: 405px;
+        left: 655px;
+}

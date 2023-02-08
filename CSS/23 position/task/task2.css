@@ -1,0 +1,35 @@
+* {
+        box-sizing: border-box;
+        background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.img img {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+}
+
+.img1 {
+        top: 100px;
+        left: 200px;
+}
+
+.img2 {
+        top: 100px;
+        left: 500px;
+}
+
+.img3 {
+        top: 100px;
+        left: 800px;
+}
+
+.img4 {
+        top: 275px;
+        left: 350px;
+}
+
+.img5 {
+        top: 275px;
+        left: 650px;
+}
