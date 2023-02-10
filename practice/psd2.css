@@ -1,26 +1,114 @@
 * {
-        /* margin: 8px; */
-        padding: 0;
+        margin: 0;
+        /* padding: 0; */
         box-sizing: border-box;
 }
 
 .main {
-        background-color: rgb(251, 56, 42);
-        height: 550px;
+        /* background-color: rgb(197, 64, 55); */
+        background-color: #ff1d73;
+        height: 575px;
+        position: relative;
 }
 
-.sub1 {
-        background-color: rgb(247, 194, 59);
+
+.box1 {
+        background-color: #fff45b;
         height: 300px;
-        width: 250px;
+        width: 300px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
 }
 
-.sub2 {
-        background-color: rgb(12, 218, 233);
+.box2 {
+        background-color: #01DEE6;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+}
+
+.box3 {
+        width: 900px;
+        height: 400px;
+        position: absolute;
+        z-index: 10;
+        top: 100px;
+        left: 170px;
+        background-color: #01DEE6;
+        box-shadow: 5px 5px 15px;
+}
+
+h1 {
+        color: aliceblue;
+        text-align: center;
+        padding: 20px;
+}
+
+h2 {
+        color: aliceblue;
+        text-align: center;
+        padding: 0px;
+        line-height: 1px;
+}
+
+.box3-1 {
+        background-color: #ff1d73;
+        height: 250px;
+        width: 350px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: 100;
+}
+
+.box3-2 {
+        background-color: #fff45b;
+        height: 50px;
+        width: 900px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+
+}
+
+.img {
         height: 200px;
-        width: 200px;
+        width: 250px;
+        z-index: 1000;
+        position: absolute;
+        top: 100px;
+        left: 47px;
 }
 
-.sub2 div {
-        d
+.box3-1-1 {
+        background-color: #01DEE6;
+        height: 60px;
+        width: 155px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+}
+
+h3 {
+        color: aliceblue;
+        background-color: #ff1d73;
+        font-size: 30px;
+        position: absolute;
+        top: 100px;
+        left: 450px;
+
+}
+
+h4 {
+        color: #01DEE6;
+        background-color: #fff45b;
+        font-size: 35px;
+        position: absolute;
+        top: 150px;
+        left: 450px;
 }

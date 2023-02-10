@@ -8,25 +8,25 @@
         /* flex-wrap: wrap; */
 }
 
-.flax-dir-col {
+.flex-dir-col {
         display: flex;
         flex-direction: column;
         flex-direction: column-reverse;
 
 }
 
-.flax-dir-row {
+.flex-dir-row {
         display: flex;
         flex-direction: row;
         flex-direction: row-reverse;
 }
 
-.flax-container {
+.flex-container {
         align-content: flex-end;
         height: 100px;
 }
 
-.flax-justify-content {
+.flex-justify-content {
         /* justify-content: start; */
         /* justify-content: end; */
         /* justify-content: center; */

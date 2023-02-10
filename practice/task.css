@@ -1,0 +1,30 @@
+#box1 {
+        display: grid;
+        width: 100%;
+        height: 250px;
+        grid-template-areas:
+                "header header header"
+                "main nav footer";
+        grid-template-rows: 50px 1fr;
+        grid-template-columns: 366px 1fr 366px;
+}
+
+#box1>header {
+        grid-area: header;
+        background-color: brown;
+}
+
+#box1>main {
+        grid-area: main;
+        background-color: blue;
+}
+
+#box1>nav {
+        grid-area: nav;
+        background-color: rgb(0, 255, 89);
+}
+
+#box1>footer {
+        grid-area: footer;
+        background-color: rgb(255, 0, 166);
+}
