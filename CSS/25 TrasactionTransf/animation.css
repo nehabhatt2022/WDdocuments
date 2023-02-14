@@ -1,0 +1,22 @@
+.box {
+        height: 150px;
+        width: 150px;
+        background-color: teal;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: jedevuhoiae 2s alternate infinite;
+        position: relative;
+        /* animation-duration: 3s;
+        animation-name: bounce; */
+}
+
+@keyframes jedevuhoiae {
+        to {
+                top: 10px;
+                transform: rotateZ(45deg);
+        }
+
+        from {
+                top: 150px;
+                border-radius: 50%;
+        }
+}

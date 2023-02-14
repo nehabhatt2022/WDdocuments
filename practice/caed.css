@@ -1,0 +1,33 @@
+.box {
+        height: 200px;
+        width: 200px;
+        border: 1px solid;
+}
+
+.box1 {
+        border: 1px solid;
+        height: 100px;
+}
+
+.box2 {
+        position: relative;
+        border: 1px;
+        height: 100px;
+
+}
+
+.box2-1 {
+        position: absolute;
+        z-index: 10;
+}
+
+.box2-2 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        /* left: 0px; */
+        /* bottom: 0px; */
+        background-color: rgba(206, 72, 72, 0.468);
+        clip-path: polygon(0 66%, 33% 56%, 100% 100%, 0 100%);
+
+}
