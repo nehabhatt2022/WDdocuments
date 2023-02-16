@@ -1,0 +1,59 @@
+.container {
+        display: flex;
+        margin-top: 300px;
+        margin-left: 400px;
+
+}
+
+.box1 {
+        background-color: aqua;
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+        animation: jump 5s alternate infinite;
+        position: relative;
+}
+
+.box1:hover {}
+
+@keyframes jump {
+        10% {
+                top: 10px;
+                transform: rotateY(45deg);
+        }
+
+        20% {
+                background-color: black;
+        }
+
+        100% {
+                top: 150px;
+                border-radius: 50%;
+        }
+}
+
+.box2 {
+        background-color: aqua;
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+
+}
+
+.box3 {
+        background-color: aqua;
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+}
+
+.box4 {
+        background-color: aqua;
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+}
