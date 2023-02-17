@@ -1,7 +1,7 @@
 .container {
         display: flex;
-        margin-top: 300px;
-        margin-left: 400px;
+        /* margin-top: 300px; */
+        /* margin-left: 400px; */
 
 }
 
@@ -11,29 +11,44 @@
         border: 1px solid;
         height: 100px;
         width: 100px;
-        animation: jump 5s alternate infinite;
+        animation: jump 2s alternate infinite;
         position: relative;
-}
-
-.box1:hover {}
-
-@keyframes jump {
-        10% {
-                top: 10px;
-                transform: rotateY(45deg);
-        }
-
-        20% {
-                background-color: black;
-        }
-
-        100% {
-                top: 150px;
-                border-radius: 50%;
-        }
+        margin: 150px auto;
 }
 
 .box2 {
+        background-color: aqua;
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+        animation: jump1 2s 1s alternate infinite;
+        position: relative;
+        margin: 150px auto;
+}
+
+@keyframes jump1 {
+        to {
+                transform: translateY(1px);
+        }
+
+        from {
+                transform: translateY(100px);
+        }
+}
+
+@keyframes jump {
+        to {
+
+                transform: translateY(1px);
+        }
+
+        from {
+                transform: translateY(100px);
+        }
+}
+
+/* .box2 {
         background-color: aqua;
         border-radius: 50%;
         border: 1px solid;
@@ -56,4 +71,4 @@
         border: 1px solid;
         height: 100px;
         width: 100px;
-}
+} */
