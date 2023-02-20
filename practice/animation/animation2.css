@@ -1,0 +1,159 @@
+.container {
+        display: flex;
+}
+
+.box1 {
+        background-color: rgb(227, 44, 96);
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+        animation: big1 .5s alternate infinite;
+        position: relative;
+        /* margin: 150px 300pxs; */
+        /* justify-content: center; */
+}
+
+@keyframes big1 {
+        0% {
+
+                transform: scale(0);
+        }
+
+        100% {
+                transform: scale(.1);
+        }
+
+        30% {
+                transform: scale(.3);
+        }
+
+        60% {
+                transform: scale(.5);
+        }
+}
+
+.box2 {
+        background-color: rgb(61, 58, 213);
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+        animation: big1 .5s .3s alternate infinite;
+        position: relative;
+        /* margin: 150px 300pxs; */
+        /* justify-content: center; */
+}
+
+@keyframes big2 {
+        0% {
+
+                transform: scale(0);
+        }
+
+        100% {
+                transform: scale(.1);
+        }
+
+        30% {
+                transform: scale(.3);
+        }
+
+        60% {
+                transform: scale(.5);
+        }
+}
+
+.box3 {
+        background-color: rgb(238, 241, 58);
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+        animation: big1 .5s .6s alternate infinite;
+        position: relative;
+        /* margin: 150px 300pxs; */
+        /* justify-content: center; */
+}
+
+@keyframes big3 {
+        0% {
+
+                transform: scale(0);
+        }
+
+        100% {
+                transform: scale(.1);
+        }
+
+        30% {
+                transform: scale(.3);
+        }
+
+        60% {
+                transform: scale(.5);
+        }
+}
+
+.box4 {
+        background-color: rgb(135, 185, 64);
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+        animation: big4 .5s .9s alternate infinite;
+        position: relative;
+        /* margin: 150px 300pxs; */
+        /* justify-content: center; */
+
+}
+
+@keyframes big4 {
+        0% {
+
+                transform: scale(0);
+        }
+
+        100% {
+                transform: scale(.1);
+        }
+
+        30% {
+                transform: scale(.3);
+        }
+
+        60% {
+                transform: scale(.5);
+        }
+}
+
+.box5 {
+        background-color: rgb(250, 141, 45);
+        border-radius: 50%;
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+        animation: big1 .5s .12s alternate infinite;
+        position: relative;
+        /* margin: 150px 300pxs; */
+        /* justify-content: center; */
+}
+
+@keyframes big5 {
+        0% {
+
+                transform: scale(0);
+        }
+
+        100% {
+                transform: scale(.1);
+        }
+
+        30% {
+                transform: scale(.3);
+        }
+
+        60% {
+                transform: scale(.5);
+        }
+}

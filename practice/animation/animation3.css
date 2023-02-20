@@ -1,0 +1,23 @@
+.box {
+        width: 200px;
+        height: 100px;
+        background-color: rgb(49, 49, 243);
+        /* transition: all 3s; */
+}
+
+@keyframes neha {
+        to {
+                transform: rotate(-45deg);
+
+        }
+
+        from {
+                transform: rotate(45deg);
+
+
+        }
+}
+
+.box:hover {
+        animation: neha 1s alternate-reverse infinite;
+}

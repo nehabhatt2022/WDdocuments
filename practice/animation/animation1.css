@@ -1,8 +1,8 @@
 .container {
         display: flex;
-        /* margin-top: 300px; */
+        /* margin-top: 100px; */
         /* margin-left: 400px; */
-
+        justify-content: center;
 }
 
 .box1 {
@@ -11,9 +11,21 @@
         border: 1px solid;
         height: 100px;
         width: 100px;
-        animation: jump 2s alternate infinite;
+        animation: jump1 2s alternate infinite;
         position: relative;
-        margin: 150px auto;
+        /* margin: 150px 300pxs; */
+        /* justify-content: center; */
+}
+
+@keyframes jump1 {
+        to {
+
+                transform: translateY(1px);
+        }
+
+        from {
+                transform: translateY(200px);
+        }
 }
 
 .box2 {
@@ -22,39 +34,20 @@
         border: 1px solid;
         height: 100px;
         width: 100px;
-        animation: jump1 2s 1s alternate infinite;
+        animation: jump2 2s .5s alternate infinite;
         position: relative;
-        margin: 150px auto;
+        /* margin: 150px 200px; */
+
 }
 
-@keyframes jump1 {
+@keyframes jump2 {
         to {
                 transform: translateY(1px);
         }
 
         from {
-                transform: translateY(100px);
+                transform: translateY(200px);
         }
-}
-
-@keyframes jump {
-        to {
-
-                transform: translateY(1px);
-        }
-
-        from {
-                transform: translateY(100px);
-        }
-}
-
-/* .box2 {
-        background-color: aqua;
-        border-radius: 50%;
-        border: 1px solid;
-        height: 100px;
-        width: 100px;
-
 }
 
 .box3 {
@@ -63,6 +56,19 @@
         border: 1px solid;
         height: 100px;
         width: 100px;
+        animation: jump3 2s 1s alternate infinite;
+        position: relative;
+        /* margin: 150px auto; */
+}
+
+@keyframes jump3 {
+        to {
+                transform: translateY(1px);
+        }
+
+        from {
+                transform: translateY(200px);
+        }
 }
 
 .box4 {
@@ -71,4 +77,17 @@
         border: 1px solid;
         height: 100px;
         width: 100px;
-} */
+        animation: jump4 2s 1.5s alternate infinite;
+        position: relative;
+        /* margin: 150px auto; */
+}
+
+@keyframes jump4 {
+        to {
+                transform: translateY(1px);
+        }
+
+        from {
+                transform: translateY(200px);
+        }
+}

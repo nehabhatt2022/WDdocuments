@@ -14,13 +14,13 @@
         /* transform: perspective(17px); */
         /* transform: rotate(0.5turn); */
         /* transform: rotate3d(1, 2, 3, 100deg); */
-        /* transform: rotateX(50deg); */
+        transform: rotateX(50deg);
         /* transform: rotateY(100deg); */
         /* transform: rotateZ(100deg); */
         /* transform: translate(52px, 50%); */
         /* transform: translate3d(12px, 50%, 3em); */
         /* transform: translateX(2em); */
-        transform: translateY(3in);
+        /* transform: translateY(3in); */
         /* transform: translateZ(2px); */
         /* transform: scale(2, 0.7); */
         /* transform: scale(.5); */
