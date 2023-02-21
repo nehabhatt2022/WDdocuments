@@ -7,60 +7,72 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-                .box {
-                        height: 100px;
-                        width: 100px;
-                        box-shadow: 16px 14px 20px red;
-                        /* display: flex;
+                * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+
+                }
+
+                body {
+                        display: flex;
                         justify-content: center;
-                        align-items: center; */
+                        align-items: center;
+                        height: 100vh;
+                }
+
+                .box {
+                        height: 400px;
+                        width: 300px;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: black;
+                        overflow: hidden;
+                        border-radius: 20px;
+                }
+
+                .box h2 {
+                        position: relative;
+                        color: aquamarine;
+                        font-size: 5em;
+                        z-index: 10;
                 }
 
                 .box::before {
-                        background-image: conic-gradient;
-                        (#5baed7 20deg, transparent 120deg);
-                        width: 180%;
-                        height: 180%;
+                        content: '';
                         position: absolute;
-                        animation: rotate 2s linear infinite;
-
+                        width: 150px;
+                        height: 140%;
+                        background: linear-gradient(rgb(245, 7, 126), blue);
+                        animation: animate 4s linear infinite;
                 }
 
                 .box::after {
-                        width: 190px;
-                        height: 190px;
-                        background: blue;
+                        content: '';
                         position: absolute;
-                        border-radius: 10px;
-                        box-shadow: 30px 20px 30px greenyellow;
+                        inset: 5px;
+                        background: rgb(17, 18, 17);
+                        border-radius: 16px;
                 }
 
-                @keyframes neha {
+                @keyframes animate {
                         0% {
                                 transform: rotate(0deg);
                         }
 
                         100% {
-                                transform: rotate(-360deg);
-                        }
-
-
-                }
-
-                @keyframes scals {
-                        0% {
-                                transform: scale(1);
-                        }
-
-                        100% {
-                                transform: scale(2);
+                                transform: rotate(360deg);
                         }
                 }
         </style>
 </head>
 
 <body>
-        <div class="box"></div>
+        <div class="box">
+                <h2>Neha</h2>
+        </div>
 </body>
 
 </html>
