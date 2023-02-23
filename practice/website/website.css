@@ -2,6 +2,20 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'roboto slab';
+
+}
+
+@font-face {
+        font-family: 'roboto slab';
+        src: url(Roboto_Slab/RobotoSlab-Regular.ttf);
+        /* font-stretch: expanded; */
+        /* font-stretch: condensed; */
+
+}
+
+.font-family1 {
+        font-family: roboto slab;
 }
 
 .main {
@@ -13,8 +27,6 @@
         width: 1083px;
         background-color: #b68e76;
         border-radius: 0px 0px 80px 80px;
-        justify-content: center;
-        align-items: center;
         box-shadow: 2px 101px 35px -78px rgb(75, 69, 69);
         margin: 0 auto;
 }
@@ -24,9 +36,6 @@
         text-align: center;
         font-size: 72px;
         color: #ffffff;
-        /* line-height: 95px; */
-        font-family: "Roboto Slab";
-
 }
 
 .hd {
@@ -39,17 +48,90 @@ ul {
         display: flex;
         list-style: none;
         font-size: 20px;
-        color: #ffffff;
-        font-family: "Roboto Slab";
-        /* line-height: 19px; */
-        /* text-align: center; */
         justify-content: center;
+}
+
+ul li {
+        padding: 5px;
+}
+
+.menu {
+        color: #ffffff;
 }
 
 .icon {
         color: black;
 }
 
-ul li {
-        padding: 5px;
+.row-1 {
+        display: flex;
+        background-image: url(Image.png);
+        background-position: center;
+        background-size: cover;
+        justify-content: space-between;
+}
+
+.col1 {
+        /* height: 795px; */
+        width: 350px;
+        padding-top: 280px;
+        padding-left: 100px;
+        border: 1px solid;
+        /* line-height: 30px; */
+}
+
+.col1 p {
+        font-size: 22px;
+        padding: 10px;
+}
+
+.col1 #a {
+        font-size: 17px;
+
+}
+
+.col1 #b {
+        font-size: 6px;
+}
+
+.col1 select {
+        width: 220px;
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 10px;
+}
+
+.col1 input {
+        width: 100px;
+        height: 30px;
+        /* padding: 50px; */
+        border-radius: 20px;
+        margin-top: 10px;
+        border: none;
+        background-color: #b68e76;
+}
+
+.col1 a {
+        font-size: 45px;
+        margin-top: 50px;
+        color: #000000;
+}
+
+.col1 span {
+        font-size: 10px;
+}
+
+.col2 {
+        height: 700px;
+        width: 327px;
+        background-color: #ffffff;
+        justify-content: end;
+        margin-top: 200px;
+        border-radius: 50px 0px 0px 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+}
+
+.icon1 {
+        /* background-color: #b68e76; */
 }
