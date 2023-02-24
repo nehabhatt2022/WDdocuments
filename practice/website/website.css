@@ -99,6 +99,7 @@ ul li {
         height: 30px;
         border-radius: 20px;
         margin-top: 10px;
+        padding: 15px;
 }
 
 .col1 input {
@@ -122,8 +123,8 @@ ul li {
 }
 
 .col2 {
-        height: 700px;
-        width: 327px;
+        /* height: 700px; */
+        width: 360px;
         background-color: #ffffff;
         justify-content: end;
         margin-top: 200px;
@@ -132,6 +133,15 @@ ul li {
         padding-top: 20px;
 }
 
-.icon1 {
-        /* background-color: #b68e76; */
+.icon1 i {
+        background-color: #b68e76;
+        padding: 7px;
+}
+
+.row2 {
+        display: flex;
+        width: 800px;
+        margin: 0 auto;
+        padding-top: 100px;
+
 }
