@@ -14,8 +14,13 @@
 
 }
 
+@font-face {
+        font-family: 'roboto light';
+        src: url(Roboto_Slab/RobotoSlab-Light.ttf);
+}
+
 .font-family1 {
-        font-family: roboto slab;
+        font-family: 'roboto slab'
 }
 
 .main {
@@ -76,7 +81,7 @@ ul {
 
 
 .row-1 {
-        background-image: url(Imagebg3.png);
+        background-image: url(Imagebg1.png);
         background-position: center;
         background-size: auto;
         display: flex;
@@ -94,14 +99,18 @@ ul {
         /* line-height: 30px; */
 }
 
-.col1.line1 {
+.col1 .line1 {
         font-size: 22px;
+        font-weight: bold;
         /* padding: 10px; */
+        font-family: 'roboto slab';
 }
 
-.col1.line2 {
+.col1 .line2 {
         font-size: 19px;
         padding-top: 10px;
+        font-weight: lighter;
+        font-family: 'roboto light';
 }
 
 select {
@@ -229,4 +238,34 @@ img {
 
 .row3 .col1 {
         margin-left: 50%;
+}
+
+.row4 {
+        display: flex;
+}
+
+.row5 {
+        background-image: url(Imagecakebg.png);
+}
+
+.row6 {
+        background-image: url(Imageglass.png);
+        display: flex;
+        width: 70%;
+}
+
+.box-lt {
+        width: 50%;
+}
+
+.box-rt {
+        width: 50%;
+}
+
+.row7 {
+        background-image: url(Rectangle\ 2.png);
+}
+
+.row8 {
+        display: flex;
 }
