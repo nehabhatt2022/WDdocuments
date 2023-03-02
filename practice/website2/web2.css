@@ -1,0 +1,38 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.header-bg {
+        background-color: aqua;
+}
+
+.container {
+        width: 1100px;
+        margin: 0 auto;
+}
+
+.row {
+        display: flex;
+}
+
+.pos-ab {
+        position: absolute;
+}
+
+.align {
+        align-items: center;
+}
+
+.jsc {
+        justify-content: center;
+}
+
+.col-30 {
+        width: 30%;
+}
+
+img {
+        width: 100%;
+}

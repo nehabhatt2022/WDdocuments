@@ -1,0 +1,33 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.row {
+        /* background-color: #eae8d7;
+        color: #0b5e98;
+        position: relative; */
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.whatwedo {
+        position: absolute;
+
+}
+
+/* .row2 {
+        background-color: #115c90;
+        position: relative;
+        display: flex;
+} */
+
+.image1 {
+        top: 400px;
+        left: 75px;
+}
+
+.col-33 p {
+        c
+}
