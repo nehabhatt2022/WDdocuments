@@ -45,7 +45,11 @@
 }
 
 .col-30 {
-        width: 33%;
+        width: 30%;
+}
+
+.jc-space-between {
+        justify-content: space-between;
 }
 
 .sec1-text {
@@ -84,4 +88,49 @@
         height: 30px;
         width: 150px;
         border-color: #0b5e98;
+}
+
+.align-item-center {
+        align-items: center;
+}
+
+.padding-20 {
+        padding: 20px 0;
+}
+
+.margin-20 {
+        margin: 20px 0;
+}
+
+.img {
+        width: 90%;
+}
+
+.pos-rel {
+        position: relative;
+}
+
+.pos-ab {
+        position: absolute;
+
+}
+
+.top-left h1 {
+        font-size: 30px;
+        width: 70%;
+        top: 0px;
+        left: 0px;
+}
+
+.jc-center {
+        text-align: center;
+}
+
+.sec-2 {
+        background-color: #0b5e98;
+        color: #eae8d7;
+}
+
+.sec2-img img {
+        margin-top: 300px;
 }
