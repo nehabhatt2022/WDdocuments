@@ -54,6 +54,7 @@ p {
 
 .row {
         display: flex;
+        flex-wrap: wrap;
 
 }
 
@@ -172,6 +173,4 @@ span {
         border-radius: 0px 10px 10px 0px;
 }
 
-.chocolate {
-        ;
-}
+.chocolate {}
