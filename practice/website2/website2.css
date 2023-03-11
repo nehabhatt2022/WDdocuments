@@ -92,7 +92,8 @@
         color: #0b5e98;
         background-color: #eae8d7;
         height: 30px;
-        width: 150px;
+        padding: 0 10px;
+        /* width: 150px; */
         border-color: #0b5e98;
 }
 
@@ -278,7 +279,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 2px solid #0b5e98;
+        border-top: 1px solid #0b5e98;
+        border-bottom: 1px solid #0b5e98;
 }
 
 .sec5-text h3 {
@@ -330,15 +332,100 @@
         text-align: center;
 }
 
-.sec-7-text {
-        text-align: center;
-        margin: 50px 0;
+.sec7-text {
+        /* text-align: center; */
+        padding: 50px 0;
+
+}
+
+.sec7-text i {
+        width: 25px;
 }
 
 .sec7-text h2 {
         font-size: 50px;
+        padding: 50px 0;
 }
 
 .sec7-text p {
+        font-size: 20px;
+        width: 70%;
+}
+
+.sec7-text h4 {
+        font-size: 20px;
+        padding: 20px 25px;
+}
+
+.sec7-border {
+        border-bottom: 1px solid #0b5e98;
+}
+
+.sec8-text {
+        width: 90%;
+}
+
+.sec8-text h2 {
+        font-size: 50px;
+}
+
+.sec8-text p {
+        font-size: 20px;
+}
+
+.sec8-border {
+        border-right: 1px solid #0b5e98;
+}
+
+.sec8-form {
+        width: 90%;
+        padding: 50px 30px 50px 30px;
+
+}
+
+.sec8-form h3 {
+        font-size: 50px;
+        padding: 10px 0;
+}
+
+.sec8-form h5 {
+        font-size: 20px;
+        padding: 10px 0;
+}
+
+.sec8-width input {
+        width: 100%;
+        padding: 20px 0;
+}
+
+.btnflex {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+}
+
+.mr-10 input {
+        margin: 0 10px;
+}
+
+.col25 {
+        width: 25%;
+}
+
+.sec9-text h3 {
+        font-size: 20px;
+        padding: 20px 0;
+}
+
+.sec9-text p {
         font-size: 15px;
+}
+
+.footer {
+        padding: 70px 0;
+}
+
+.footer>p {
+        font-size: 10px;
+        padding: 50px 0;
 }
