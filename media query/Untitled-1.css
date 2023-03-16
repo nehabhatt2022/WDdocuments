@@ -100,7 +100,7 @@ p {
 }
 
 .header-text h2 {
-        font-size: 70px;
+        font-size: 60px;
         padding: 10px 0;
 }
 
@@ -196,12 +196,12 @@ p {
 }
 
 .sec4-text h2 {
-        font-size: 80px;
+        font-size: 55px;
         padding: 20px 0;
 }
 
 .sec4-text h3 {
-        font-size: 20px;
+        font-size: 17px;
         padding: 10px 0;
 }
 
@@ -340,7 +340,7 @@ p {
 }
 
 .sec7-text-1 h2 {
-        font-size: 75px;
+        font-size: 60px;
 }
 
 .sec7-img img {
@@ -359,7 +359,7 @@ p {
 }
 
 .sec8-text-1 h2 {
-        font-size: 70px;
+        font-size: 50px;
 }
 
 .box {
@@ -367,6 +367,7 @@ p {
         border: 1px solid #232323;
         border-radius: 5px;
         padding: 30px;
+        margin: 10px 0;
 }
 
 .sec8-icon {
@@ -493,6 +494,11 @@ p {
                 margin: 0 auto;
         }
 
+        .sec2-text {
+                width: 81%;
+
+        }
+
         .col20 {
                 width: 20%;
         }
@@ -521,9 +527,6 @@ p {
                 width: 80%;
         }
 
-        .sec2-text {
-                width: 30%;
-        }
 
         .menu li {
                 padding: 40px 30px;
@@ -536,12 +539,38 @@ p {
         .sec4-text {
                 width: 55%;
         }
+
+        .header-text h2 {
+                font-size: 80px;
+        }
+
+
+
+        .sec4-text h3 {
+                font-size: 20px;
+        }
+
+        .sec7-text-1 h2 {
+                font-size: 75px;
+        }
+
+        .sec8-text-1 h2 {
+                font-size: 70px;
+        }
+
+        .sec4-text h2 {
+                font-size: 56px;
+        }
 }
 
 @media screen and (min-width:768px) {
         .container {
                 width: 720px;
                 margin: 0 auto;
+        }
+
+        .sec2-text {
+                width: 81%;
         }
 
         .col20 {
@@ -570,6 +599,14 @@ p {
 
         .col80 {
                 width: 80%;
+        }
+
+        header-text h2 {
+                font-size: 50px;
+        }
+
+        .sec4-text h2 {
+                font-size: 65px;
         }
 }
 
@@ -640,5 +677,17 @@ p {
 
         .col80 {
                 width: 80%;
+        }
+}
+
+@media screen and (min-width: 1400px) {
+        .header-text h2 {
+                font-size: 75px;
+        }
+}
+
+@media screen and (min-width: 1700px) {
+        .header-text h2 {
+                font-size: 85px;
         }
 }
