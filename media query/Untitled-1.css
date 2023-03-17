@@ -14,10 +14,6 @@
         font-family: cardo;
 }
 
-.align {
-        align-items: center;
-}
-
 @font-face {
         font-family: lato;
         src: url(./Lato2OFL/Lato2OFL/Lato-Light.ttf);
@@ -47,7 +43,7 @@ p {
 }
 
 .container {
-        width: 90%;
+        width: 1200px;
         margin: 0 auto;
 }
 
@@ -66,7 +62,7 @@ p {
 }
 
 .menu li {
-        padding: 20px 10px;
+        padding: 40px 30px;
 }
 
 .nav-btn {
@@ -88,19 +84,19 @@ p {
 }
 
 .col40 {
-        width: 100%;
+        width: 40%;
 }
 
 .col60 {
-        width: 100%;
+        width: 60%;
 }
 
 .header-text {
-        width: 100%;
+        width: 90%;
 }
 
 .header-text h2 {
-        font-size: 60px;
+        font-size: 70px;
         padding: 10px 0;
 }
 
@@ -126,7 +122,7 @@ p {
 }
 
 .sec2-text {
-        width: 100%;
+        width: 30%;
         margin: 0 auto;
         padding: 20px;
         text-align: center;
@@ -160,7 +156,7 @@ p {
 }
 
 .col30 {
-        width: 100%;
+        width: 30%;
 }
 
 .sec3-img img {
@@ -186,7 +182,7 @@ p {
 }
 
 .sec4-text {
-        width: 100%;
+        width: 55%;
         text-align: center;
         margin: 0 auto;
 }
@@ -196,12 +192,12 @@ p {
 }
 
 .sec4-text h2 {
-        font-size: 55px;
+        font-size: 80px;
         padding: 20px 0;
 }
 
 .sec4-text h3 {
-        font-size: 17px;
+        font-size: 20px;
         padding: 10px 0;
 }
 
@@ -294,11 +290,11 @@ p {
 }
 
 .col70 {
-        width: 100%;
+        width: 70%;
 }
 
 .col30 {
-        width: 100%;
+        width: 30%;
 }
 
 .sec7 {
@@ -340,7 +336,7 @@ p {
 }
 
 .sec7-text-1 h2 {
-        font-size: 60px;
+        font-size: 75px;
 }
 
 .sec7-img img {
@@ -359,7 +355,7 @@ p {
 }
 
 .sec8-text-1 h2 {
-        font-size: 50px;
+        font-size: 70px;
 }
 
 .box {
@@ -367,7 +363,6 @@ p {
         border: 1px solid #232323;
         border-radius: 5px;
         padding: 30px;
-        margin: 10px 0;
 }
 
 .sec8-icon {
@@ -447,15 +442,15 @@ p {
 }
 
 .col20 {
-        width: 100%;
+        width: 20%;
 }
 
 .col80 {
-        width: 100%;
+        width: 80%;
 }
 
 .col25 {
-        width: 100%;
+        width: 25%;
 }
 
 .bg-grey {
@@ -486,208 +481,4 @@ p {
 .copyright p {
         font-size: 20px;
         text-align: center;
-}
-
-@media screen and (min-width:576px) {
-        .container {
-                width: 540px;
-                margin: 0 auto;
-        }
-
-        .sec2-text {
-                width: 81%;
-
-        }
-
-        .col20 {
-                width: 20%;
-        }
-
-        .col25 {
-                width: 25%;
-        }
-
-        .col30 {
-                width: 30%;
-        }
-
-        .col40 {
-                width: 40%;
-        }
-
-        .col60 {
-                width: 60%;
-        }
-
-        .col70 {
-                width: 70%;
-        }
-
-        .col80 {
-                width: 80%;
-        }
-
-
-        .menu li {
-                padding: 40px 30px;
-        }
-
-        .header-text {
-                width: 90%;
-        }
-
-        .sec4-text {
-                width: 55%;
-        }
-
-        .header-text h2 {
-                font-size: 80px;
-        }
-
-
-
-        .sec4-text h3 {
-                font-size: 20px;
-        }
-
-        .sec7-text-1 h2 {
-                font-size: 75px;
-        }
-
-        .sec8-text-1 h2 {
-                font-size: 70px;
-        }
-
-        .sec4-text h2 {
-                font-size: 56px;
-        }
-}
-
-@media screen and (min-width:768px) {
-        .container {
-                width: 720px;
-                margin: 0 auto;
-        }
-
-        .sec2-text {
-                width: 81%;
-        }
-
-        .col20 {
-                width: 20%;
-        }
-
-        .col25 {
-                width: 25%;
-        }
-
-        .col30 {
-                width: 30%;
-        }
-
-        .col40 {
-                width: 40%;
-        }
-
-        .col60 {
-                width: 60%;
-        }
-
-        .col70 {
-                width: 70%;
-        }
-
-        .col80 {
-                width: 80%;
-        }
-
-        header-text h2 {
-                font-size: 50px;
-        }
-
-        .sec4-text h2 {
-                font-size: 65px;
-        }
-}
-
-@media screen and (min-width:992px) {
-        .container {
-                width: 940px;
-                margin: 0 auto;
-        }
-
-        .col20 {
-                width: 20%;
-        }
-
-        .col25 {
-                width: 25%;
-        }
-
-        .col30 {
-                width: 30%;
-        }
-
-        .col40 {
-                width: 40%;
-        }
-
-        .col60 {
-                width: 60%;
-        }
-
-        .col70 {
-                width: 70%;
-        }
-
-        .col80 {
-                width: 80%;
-        }
-}
-
-@media screen and (min-width:1200px) {
-        .container {
-                width: 1140px;
-                margin: 0 auto;
-        }
-
-        .col20 {
-                width: 20%;
-        }
-
-        .col25 {
-                width: 25%;
-        }
-
-        .col30 {
-                width: 30%;
-        }
-
-        .col40 {
-                width: 40%;
-        }
-
-        .col60 {
-                width: 60%;
-        }
-
-        .col70 {
-                width: 70%;
-        }
-
-        .col80 {
-                width: 80%;
-        }
-}
-
-@media screen and (min-width: 1400px) {
-        .header-text h2 {
-                font-size: 75px;
-        }
-}
-
-@media screen and (min-width: 1700px) {
-        .header-text h2 {
-                font-size: 85px;
-        }
 }
