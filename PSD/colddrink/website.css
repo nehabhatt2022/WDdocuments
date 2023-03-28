@@ -1,0 +1,176 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'roboto slab';
+
+}
+
+@font-face {
+        font-family: 'roboto slab';
+        src: url(Roboto_Slab/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+        font-family: 'roboto light';
+        src: url(Roboto_Slab/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+        font-family: 'roboto Bold';
+        src: url(Roboto_Slab/RobotoSlab-Bold.ttf);
+}
+
+.font-family {
+        font-family: 'roboto slab'
+}
+
+h2 {
+        font-family: 'roboto Bold';
+}
+
+p {
+        font-family: 'roboto light';
+}
+
+.main {
+        background-color: #f1e8e3;
+}
+
+.header {
+        width: 87%;
+        background-color: #b68e76;
+        border-radius: 0px 0px 80px 80px;
+        box-shadow: 2px 101px 35px -78px rgb(75, 69, 69);
+        margin: 0 auto;
+}
+
+.logo {
+        padding-top: 70px;
+        text-align: center;
+        font-size: 72px;
+        color: #ffffff;
+}
+
+.row {
+        display: flex;
+        flex-wrap: wrap;
+
+}
+
+.jc-space-around {
+        justify-content: space-around;
+}
+
+.menu {
+        list-style: none;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+}
+
+.pading li {
+        padding: 10px;
+}
+
+.white {
+        color: #f1e8e3;
+}
+
+.black {
+        color: black;
+}
+
+.sec1-background {
+        background-image: url(Imagebg1.png);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+
+        /* justify-content: space-between; */
+}
+
+.background {}
+
+.jc-space-between {
+        justify-content: space-between;
+}
+
+.width-30 {
+        width: 30%;
+}
+
+.padding-100 {
+        padding: 0 100px;
+}
+
+.width-25 {
+        width: 75%;
+}
+
+.font-size-25 {
+        font-size: 25px;
+}
+
+.padding-5 {
+        padding: 5px 0;
+}
+
+.select {
+        width: 100%;
+}
+
+.margin-5 {
+        margin: 15px 0;
+}
+
+.btn {
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+}
+
+span {
+        display: inline-block;
+        font-size: 30px;
+}
+
+.border-none {
+        border: none;
+}
+
+.font-10 {
+        font-size: 10px;
+}
+
+.bg-white {
+        background-color: #ffffff;
+}
+
+.border-radius {
+        border-radius: 50px 0px 0px 50px
+}
+
+.padding-50 {
+        padding: 20px 0px 0px 50px;
+}
+
+.width-27 {
+        width: 27%;
+}
+
+.font-20 {
+        font-size: 20px;
+}
+
+#brd-l {
+        border-radius: 10px 0px 0px 10px;
+        background-color: #b68e76
+}
+
+#brd-r {
+        border-radius: 0px 10px 10px 0px;
+}
+
+.chocolate {}

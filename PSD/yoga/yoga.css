@@ -1,0 +1,147 @@
+ {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+ }
+
+ @font-face {
+         font-family: baloobhai;
+         src: url(../font/BalooBhai-Regular.ttf);
+ }
+
+ @font-face {
+         font-family: montserrat;
+         src: url(../font/montserrat/Montserrat-Regular.ttf);
+ }
+
+ h2,
+ h3 {
+         font-family: baloobhai;
+ }
+
+ p {
+         font-family: montserrat;
+ }
+
+ .container {
+         width: 1200px;
+         margin: 0 auto;
+ }
+
+ .row {
+         display: flex;
+         flex-wrap: wrap;
+ }
+
+ .jc-sp-bt {
+         justify-content: space-between;
+ }
+
+ .po-rel {
+         position: relative;
+ }
+
+ .po-ab {
+         position: absolute;
+ }
+
+ .col60 {
+         width: 60%;
+ }
+
+ .col40 {
+         width: 40%;
+ }
+
+ .bg-white {
+         background-color: #e0e0e0;
+         color: #6c9894;
+ }
+
+ .navber {
+         padding: 10px 0;
+ }
+
+ .logo {
+         background-color: #6c9894;
+ }
+
+ .menu {
+         list-style: none;
+         align-items: center;
+         /* background-color: #6c9994; */
+ }
+
+ .menu li {
+         padding: 0 10px;
+         color: black;
+ }
+
+ .header-img {
+         /* background-image: url(../img/Shape1.png); */
+         margin: 0 auto;
+ }
+
+ .header-img1 {
+         top: 225px;
+         left: 217px;
+ }
+
+ .header-img1 img {
+         border-radius: 50%;
+         border: 3px solid #6c9894;
+ }
+
+ .header-text {
+         text-align: center;
+         padding: 200px 0;
+ }
+
+ .header-text h2 {
+         font-size: 50px;
+         padding: 10px 0;
+ }
+
+ .header-text p {
+         font-size: 20px;
+         padding: 10px 0;
+ }
+
+ .header-btn {
+         padding: 10px 0;
+ }
+
+ .header-btn input {
+         background-color: #6c9894;
+         width: 100px;
+         height: 30px;
+         border-radius: 10px;
+         color: #e0e0e0;
+         border: none;
+ }
+
+ .bg-till {
+         background-color: #6c9894;
+         color: #e0e0e0;
+ }
+
+ .sec1 {
+         padding: 30px 0;
+ }
+
+ .sec1-text {
+         text-align: center;
+         width: 60%;
+         margin: 0 auto;
+         padding: 10px;
+ }
+
+ .sec1-text h2 {
+         font-size: 50px;
+         padding: 10px 0;
+ }
+
+ .sec1-text p {
+         font-size: 20px;
+         padding: 10px 0;
+ }

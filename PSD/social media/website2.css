@@ -1,0 +1,431 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+@font-face {
+        font-family: dm-sans;
+        src: url();
+}
+
+.sec1 {
+        background-color: #eae8d7;
+        color: #0b5e98;
+}
+
+.container {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+}
+
+.navbar {}
+
+.row {
+        display: flex;
+}
+
+.width80 {
+        width: 90%;
+}
+
+.col {
+        padding-top: 70px;
+}
+
+.togle {}
+
+.textbox input {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid;
+        background-color: #eae8d7;
+
+}
+
+.logo {
+        position: absolute;
+        top: 40px;
+        right: 0px;
+}
+
+.col30 {
+        width: 30%;
+}
+
+.jc-space-between {
+        justify-content: space-between;
+}
+
+.sec1-text {
+        padding-top: 100px;
+}
+
+.sec1-text h2 {
+        font-size: 20px;
+        text-align: center;
+        /* padding-bottom: 20px; */
+}
+
+.sec-1text p {
+        font-size: 10px;
+        text-align: justify;
+}
+
+.btn1,
+.btn2 {
+        text-align: center;
+}
+
+.btn1 input {
+        border-radius: 20px;
+        background-color: #0b5e98;
+        color: #eae8d7;
+        height: 30px;
+        width: 150px;
+        border: none;
+}
+
+.btn2 input {
+        border-radius: 20px;
+        color: #0b5e98;
+        background-color: #eae8d7;
+        height: 30px;
+        padding: 0 10px;
+        /* width: 150px; */
+        border-color: #0b5e98;
+}
+
+.align-item-center {
+        align-items: center;
+}
+
+.padding-20 {
+        padding: 20px 0;
+}
+
+.padding-35 {
+        padding: 35px 0;
+}
+
+.margin-20 {
+        margin: 20px 0;
+}
+
+.img {
+        /* width: 100%; */
+}
+
+.img img {
+        width: 100%;
+}
+
+.pos-rel {
+        position: relative;
+}
+
+.pos-ab h1 {
+        position: absolute;
+        top: 10px;
+        left: 58px;
+        font-size: 35px;
+        width: 70%;
+        text-align: center;
+}
+
+.top-left h1 {
+        /* font-size: 30px; */
+        /* width: 70%; */
+        /* top: 0px; */
+        /* left: 0px; */
+}
+
+.jc-center {
+        text-align: center;
+}
+
+.sec-2 {
+        background-color: #0b5e98;
+        color: #eae8d7;
+}
+
+.sec2-img-1 img {
+        margin-top: 300px;
+        margin-bottom: 50px;
+}
+
+.sec-2-text {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+
+}
+
+/* .sec-2-text h2,  */
+.sec2-img-2 {
+        display: flex;
+        justify-content: right;
+}
+
+.sec2-img-2 img {
+        /* margin-left: 50px; */
+        margin-top: 50px;
+        margin-bottom: 300px;
+        /* text-align: right; */
+        /* width: 100%; */
+}
+
+.title-img2 img {
+        top: 0px;
+        left: 0px;
+}
+
+.col50 {
+        width: 45%;
+}
+
+.img4-1 img,
+.img4-2 img {
+        width: 100%;
+
+}
+
+.img4-2 {
+        padding-top: 100px;
+}
+
+.img4-1 p,
+.img4-2 p {
+        font-size: 25px;
+        /* padding: 10px 0px 10px 0px; */
+        border-bottom: 1px solid;
+        margin: 30px 0;
+}
+
+.sec4-img {
+        text-align: center;
+}
+
+.logo1 {
+        position: absolute;
+        top: -45px;
+        right: 0px;
+
+}
+
+.logo1 img {
+        width: 110px;
+}
+
+.ssm p {
+        font-size: 20px;
+        position: absolute;
+        top: 0px;
+        right: 40px;
+        transform: rotate(35deg);
+}
+
+.sec4-text {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+}
+
+.sec4-text p {
+        font-size: 20px;
+        padding: 100px 0;
+}
+
+.sec4-text h2 {
+        font-size: 50px;
+        width: 60%;
+        margin: 0 auto;
+}
+
+.col60 {
+        width: 60%;
+}
+
+.col40 {
+        width: 40%;
+}
+
+.sec5-img img {
+        width: 100%;
+}
+
+.sec5-text {
+        border-bottom: 1px solid;
+
+}
+
+.sec5-width {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+        padding: 10px 0;
+}
+
+.sec5-text h2 {
+        font-size: 50px;
+        padding: 50px 0;
+
+}
+
+.sec-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #0b5e98;
+        border-bottom: 1px solid #0b5e98;
+}
+
+.sec5-text h3 {
+        font-size: 20px;
+        padding: 10px 0;
+
+}
+
+.sec5-text p {
+        font-size: 15px;
+        padding: 15px 0;
+        /* border-bottom: 1px solid; */
+}
+
+.width80 {
+        width: 80%;
+}
+
+.sec5-img {
+        border-left: 1px solid #115c90;
+}
+
+.col50 {
+        width: 50%;
+}
+
+.sec6-img {
+        text-align: center;
+        padding: 100px 0;
+}
+
+.sec6-text {
+        width: 70%;
+        margin: 0 auto;
+
+
+}
+
+.sec6-text h2 {
+        font-size: 50px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 55%;
+}
+
+.sec6-text p {
+        font-size: 15px;
+        text-align: center;
+}
+
+.sec7-text {
+        /* text-align: center; */
+        padding: 50px 0;
+
+}
+
+.sec7-text i {
+        width: 25px;
+}
+
+.sec7-text h2 {
+        font-size: 50px;
+        padding: 50px 0;
+}
+
+.sec7-text p {
+        font-size: 20px;
+        width: 70%;
+}
+
+.sec7-text h4 {
+        font-size: 20px;
+        padding: 20px 25px;
+}
+
+.sec7-border {
+        border-bottom: 1px solid #0b5e98;
+}
+
+.sec8-text {
+        width: 90%;
+}
+
+.sec8-text h2 {
+        font-size: 50px;
+}
+
+.sec8-text p {
+        font-size: 20px;
+}
+
+.sec8-border {
+        border-right: 1px solid #0b5e98;
+}
+
+.sec8-form {
+        width: 90%;
+        padding: 50px 30px 50px 30px;
+
+}
+
+.sec8-form h3 {
+        font-size: 50px;
+        padding: 10px 0;
+}
+
+.sec8-form h5 {
+        font-size: 20px;
+        padding: 10px 0;
+}
+
+.sec8-width input {
+        width: 100%;
+        padding: 20px 0;
+}
+
+.btnflex {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+}
+
+.mr-10 input {
+        margin: 0 10px;
+}
+
+.col25 {
+        width: 25%;
+}
+
+.sec9-text h3 {
+        font-size: 20px;
+        padding: 20px 0;
+}
+
+.sec9-text p {
+        font-size: 15px;
+}
+
+.footer {
+        padding: 70px 0;
+}
+
+.footer>p {
+        font-size: 10px;
+        padding: 50px 0;
+}
