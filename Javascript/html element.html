@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aperiam reprehenderit ipsam rerum architecto
+                aliquid hic ullam? Incidunt amet dignissimos velit, impedit enim aperiam est cumque laudantium.
+                Corporis, tenetur impedit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum iure excepturi voluptatum
+                fugiat cumque quasi, consequatur hic mollitia, similique non sapiente suscipit quae aut deserunt tenetur
+                corrupti animi eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum iure excepturi voluptatum
+                fugiat cumque quasi, consequatur hic mollitia, similique non sapiente suscipit quae aut deserunt tenetur
+                corrupti animi eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum iure excepturi voluptatum
+                fugiat cumque quasi, consequatur hic mollitia, similique non sapiente suscipit quae aut deserunt tenetur
+                corrupti animi eligendi?</p>
+        <input type="text" name="inpId" id="inpId">
+        <input type="text" name="inpClass" class="inpClass" id="inpClass">
+        <button id="btn">Click</button>
+        <script>
+                document.getElementById('btn').addEventListener("click", function () {
+                        // console.log(document.body);
+                        Inp = document.getElementById("inpId")
+                        Para = document.getElementsByTagName("p")
+                        InpClass = document.getElementsByName("inpClass")
+                        InpClassName = document.getElementsByClassName("inpClass")
+                        InpClassNameQuerySelector = document.querySelector(".inpClass")
+                        InpClassNameQuerySelectorAll = document.querySelectorAll(".inpClass")
+                        console.log(InpClassNameQuerySelector);
+                        console.log(InpClassNameQuerySelectorAll);
+                        // console.log(Inp.value);
+                        // console.log(Para);
+                        // console.log("InpClass",InpClass);
+                        // console.log("InpClass",InpClass[0]);
+                        // console.log("InpClass",InpClass[0].value);
+                        // console.log("InpClass",InpClassName);
+                        Para[0].style.color = "red"
+                        Para[3].style.color = "red"
+
+                })
+                console.log(document.body.p);
+                document.body.p.style.backgroundColor = "grey"
+        </script>
+</body>
+
+</html>
