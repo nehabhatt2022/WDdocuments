@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <form method="post">
+                <input type="text" placeholder="Enter User Name" autocomplete="off" required
+                        onblur="requirefield(this,'usernameError')" name="username" id="username"><label
+                        id="usernameError" for=""></label>
+                <input type="text" placeholder="Enter User Name" autocomplete="off" required
+                        onblur="requirefield(this,'passwordError')" name="username" id="username"><label
+                        id="passwordError" for=""></label>
+                <input type="text" placeholder="Enter User Name" autocomplete="off" required
+                        onblur="requirefield(this,'emailError')" name="username" id="username"><label id="emailError"
+                        for=""></label>
+                <input type="text" placeholder="Enter User Name" autocomplete="off" required
+                        onblur="requirefield(this,'mobileError')" name="username" id="username"><label id="mobileError"
+                        for=""></label>
+                <input type="submit" name="btn" id="btn">
+
+        </form>
+        <script>
+                function requirefield(inp, lab) {
+                        console.log(inp)
+                        if (inp.value == "") {
+                                document.getElementById(lab).innerHTML = "<b>This field is required HTML</b>"
+                                console.log("this field is required");
+                        } else {
+                                document.getElementById(lab).innerHTML = ""
+                                console.log("valid");
+                        }
+                }
+
+        </script>
+</body>
+
+</html>

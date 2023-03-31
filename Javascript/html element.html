@@ -24,15 +24,47 @@
         <input type="text" name="inpId" id="inpId">
         <input type="text" name="inpClass" class="inpClass" id="inpClass">
         <button id="btn">Click</button>
-        <!-- <h2>Keyboard Event</h2>
+        <h2>Keyboard Event</h2>
         <input type="text" onkeydown="getData(this)" placeholder="Onkeydown" name="" id=""> <br>
         <input type="text" onkeypress="getData(this)" placeholder="OnkeyPress" name="" id=""> <br>
         <input type="text" onkeyup="getData(this)" placeholder="OnkeyUp" name="" id=""><br>
-        <div class="disp" id="disp"></div> -->
+        <div class="disp" id="disp"></div>
+
         <script>
-                document.getElementById('btn').addEventListener("click", function ())
-                // console.log(document.body.p);
-                // document.body.p.style.backgroundColor = "grey" aavu no karavi sakay body.p avu ny thy
+                function getData(kaipan) {
+                        console.log(kaipan.value);
+                        document.getElementById("disp").innerText = kaipan.value
+                }
+                document.getElementById('btn').addEventListener("click", function () {
+
+                        // console.log(document.body);
+
+                        // Inp = document.getElementById("inpId")
+                        // console.log(Inp.value);
+
+                        // Para = document.getElementsByTagName("p")
+                        // console.log(Para);
+                        // Para[0].style.color = "red"
+                        // Para[3].style.color = "red"
+
+                        // InpClass = document.getElementsByName("inpClass")
+                        // console.log("InpClass", InpClass);
+                        // console.log("inpClass", inpClass[0]);
+                        // console.log("InpClass", InpClass[0].value);
+
+                        // InpClassName = document.getElementsByClassName("inpClass")
+                        // console.log("InpClass", InpClassName);
+
+                        // InpClassNameQuerySelector = document.querySelector(".inpClass")
+                        // console.log(InpClassNameQuerySelector);
+
+                        // InpClassNameQuerySelectorAll = document.querySelectorAll(".inpClass")
+                        // console.log(InpClassNameQuerySelectorAll);
+
+
+                })
+        // console.log(document.body.p);
+        // document.body.p.style.backgroundColor = "grey"
         </script>
 </body>
 
