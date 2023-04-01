@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <form method="post">
+                <input type="text" placeholder="Enter User Name" autocomplete="off" onblur="requirefield(this)"
+                        name="username" id="username">
+
+                <input type="text" placeholder="Enter User Name" autocomplete="off" onblur="requirefield(this)"
+                        name="password" id="password">
+
+                <input type="text" placeholder="Enter User Name" autocomplete="off" onblur="requirefield(this)"
+                        name="email" id="email">
+
+                <input type="text" placeholder="Enter User Name" autocomplete="off" onblur="requirefield(this)"
+                        name="mobile" id="mobile">
+
+                <input type="submit" name="btn" id="btn">
+
+        </form>
+        <script>
+                // var p = document.createElement("p");
+                // var newtext = document.createTextNode("This field is required HTML");
+                // p.appendChild(newtext);
+                // // console.log(newtext)
+                // // console.log(p)
+                // e = document.getElementsByTagName("input")
+                // e.after(p)
+
+
+                function requirefield(e) {
+                        var p = document.createElement("p");
+                        var newtext = document.createTextNode("This field is required HTML");
+                        p.appendChild(newtext);
+                        // console.log(newtext)
+                        // console.log(p)
+                        // console.log(e)
+                        e.after(p)
+                        if (e.value == p) {
+                                document.getElementsByTagName(p).innerHTML = "<b>This field is required HTML</b>"
+                                console.log("this field is required");
+
+                        } else {
+                                document.getElementsByTagName(p).innerHTML = ""
+                                console.log("valid");
+
+
+                        }
+                }
+                // document.getElementById('btn').addEventListener("click", function requiredfield(this) {
+
+                        // InpClass = document.getElementsByName("input")
+                        // if (this.value = "") {
+                        //         document.getElementById(InpClass).innerHTML = "<b>This field is required HTML</b>"
+                        //         console.log("this field is required");
+                        // }
+                        // else {
+                        //         document.getElementById(InpClass).innerHTML = ""
+                        //         console.log("valid");
+                        // }
+                        // console.log(this)
+
+                // })
+
+        </script>
+</body>
+
+</html>

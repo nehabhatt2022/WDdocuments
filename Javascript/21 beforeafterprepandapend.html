@@ -9,7 +9,24 @@
 </head>
 
 <body>
+        <div id="mydiv">something </div>
+        <script>
+                var p = document.createElement("p");
+                var newtext = document.createTextNode("text");
+                p.appendChild(newtext);
 
+                document.getElementById("mydiv").append("append")
+                document.getElementById("mydiv").prepend("prepand")
+                document.getElementById("mydiv").before("before")
+                document.getElementById("mydiv").after("after")
+
+                // mydiv.append("append")
+                // document.body.appendChild(p);
+
+                mydiv = document.getElementById("mydiv");
+                mydiv.before(p)
+                console.log(mydiv);
+        </script>
 </body>
 
 </html>
