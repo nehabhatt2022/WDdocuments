@@ -13,7 +13,7 @@
 }
 
 .clear {
-        /* clear: left; */
-        /* clear: right; */
+        clear: left;
+        clear: right;
         clear: both;
 }

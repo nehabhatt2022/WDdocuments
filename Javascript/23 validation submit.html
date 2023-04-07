@@ -9,7 +9,7 @@
 </head>
 
 <body>
-        <form method="post">
+        <form method="post" id="myform">
                 <input type="text" placeholder="Enter User Name" required autocomplete="off" name="username"
                         id="username"><br><br>
 
@@ -23,9 +23,8 @@
                         id="mobile"><br><br>
 
                 <button type="submit" name="btn" id="btn">save</button>
-
         </form>
-        <script>
+        <Script>
                 const allinput = document.querySelectorAll('input');
                 allinput.forEach((inputs) => {
                         // console.log(data);
@@ -49,7 +48,12 @@
                                 }
                         })
                 })
-        </script>
+                document.getElementById("myform").addEventListener("submit", (e) => {
+                        e.preventDefault();
+                        console.log("called");
+                        // handle submit 
+                })
+        </Script>
 </body>
 
 </html>
