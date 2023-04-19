@@ -26,3 +26,51 @@
 .jc-sp-bt {
         justify-content: space-between;
 }
+
+.sec1 {
+        /* height: 400px; */
+        background-image: url(video-banner.jpg);
+        background-size: cover;
+
+        background-position: 100% 30%;
+
+        background-repeat: no-repeat;
+
+}
+
+.course {
+        /* background: linear-gradient(90deg, rgba(121, 9, 116, 0.553) 40%, rgba(0, 4, 255, 0.444) 100%); */
+        /* background: linear-gradient(90deg, #fdbb2d63 0%, #22c0c368 100%); */
+        /* background: linear-gradient(90deg, #fc466a5e 0%, #3f5efb59 100%); */
+        background-color: rgba(0, 0, 0, 0.491);
+}
+
+.sec1-text {
+        width: 70%;
+        margin: 0 auto;
+        padding: 50px 0;
+        text-align: center;
+}
+
+.sec1-text h2 {
+        font-size: 70px;
+        /* padding: 50px 0; */
+        color: aliceblue;
+
+}
+
+.sec1-text button {
+        background-color: rgb(223, 66, 97);
+        padding: 15px 35px;
+        border-radius: 50px;
+        border: none;
+        color: aliceblue;
+        transition: 1s;
+        margin: 20px;
+        /* outline: red; */
+}
+
+.sec2-img img {
+        width: 100%;
+        display: block;
+}
