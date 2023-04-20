@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, consectetur! Illum autem
+                voluptatum aut
+                laudantium veritatis natus earum sit sint officia libero, ullam et beatae? Quasi dignissimos repudiandae
+                totam nemo.</p>
+        <button id="btn">click</button>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.js"
+                integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+        <script>
+                $("#btn").click(function () {
+                        console.log("called");
+                        var styleproperty = $(this).css(["height", "width", "color", "background-color"]);
+                        console.log(styleproperty);
+                })
+
+        </script>
+</body>
+
+</html>

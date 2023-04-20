@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                .effect {
+                        background-color: saddlebrown;
+                        color: snow;
+                }
+        </style>
+</head>
+
+<body>
+        <script src="https://code.jquery.com/jquery-3.6.4.js"
+                integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+        <p id="changecss">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ad necessitatibus cupiditate
+                esse eos sequi doloremque, consectetur earum quas a nostrum ea laudantium, sed dolore in vel.
+                Architecto, quo. Quisquam.</p>
+        <button id="btn" class="continue">add</button>
+        <button id="remove-btn" class="continue">remove button</button>
+        <button id="toggle-btn" class="continue">toggle button</button>
+        <script>
+                // $("button .continue").html("next step...")
+                // $("#btn").html("next step...")
+                // document.getElementById("btn").innerHTML = "next step..."
+                document.getElementById("btn").addEventListener("click", function () {
+                        $("#changecss").addClass("effect")
+                })
+                document.getElementById("remove-btn").addEventListener("click", function () {
+                        $("#changecss").removeClass("effect")
+                })
+                document.getElementById("toggle-btn").addEventListener("click", function () {
+                        $("#changecss").toggleClass("effect")
+                })
+        </script>
+</body>
+
+</html>
