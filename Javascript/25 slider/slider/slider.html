@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                .slider-img {
+                        width: 500px;
+                        display: block;
+                        /* margin: 0 auto; */
+
+                }
+
+                .effect {
+                        animation: slidereffect 10s linear infinite;
+                }
+
+                @keyframes slidereffect {
+                        0% {
+                                transform: translateX(100px);
+                        }
+
+                        100% {
+                                transform: translateX(0px);
+                        }
+
+
+                }
+        </style>
+</head>
+
+<body>
+        <img class="slider-img" src="image1.pmg" alt="">
+        <img class="slider-img" src="image2.png" alt="">
+        <img class="slider-img" src="image3.png" alt="">
+        <img class="slider-img" src="image4.png" alt="">
+        <img class="slider-img" src="image5.png" alt="">
+
+        <script>
+                counter = 0
+                function Slider() {
+
+                        var sliderImage = document.getElementsByClassName("slider-img")
+
+                        for (let index = 0; index < sliderImage.length; index++) {
+                                const element = sliderImage[index];
+                                element.style.display = "none"
+                                sliderImage[index].classList.remove("effect")
+                        }
+
+                        if (counter >= sliderImage.length) {
+                                counter = 0
+                        }
+                        sliderImage[counter].style.display = "block"
+                        sliderImage[counter].classList.add("effect")
+                        counter++
+                        setTimeout(Slider, 2000);
+                }
+                Slider()
+
+
+                // counter = 0
+                // function Slider() {
+                //         var sliderImage = document.getElementsByClassName("slider-img")
+                //         for (let index = 0; index < sliderImage.length; index++) {
+                //                 const element = sliderImage[index];
+                //                 element.style.display = "none"
+                //                 sliderImage[index].classList.remove("effect")
+                //         }
+                //         if (counter >= sliderImage.length) {
+                //                 counter = 0
+                //         }
+                //         // console.log("counter",counter);
+                //         // console.log("counter",sliderImage.length);
+                //         sliderImage[counter].style.display = "block"
+                //         sliderImage[counter].classList.add("effect")
+                //         // setInterval(Slider,2000);
+                //         counter++
+                //         setTimeout(Slider, 2000);
+                // }
+                // Slider()
+        </script>
+        </script>
+</body>
+
+</html>
