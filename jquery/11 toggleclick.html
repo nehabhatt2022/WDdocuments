@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+                integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+        <style>
+                p {
+                        margin: 4px;
+                        font-size: 16px;
+                        font-weight: bolder;
+                        cursor: pointer;
+                }
+
+                .blue {
+                        color: blue;
+                }
+
+                .highlight {
+                        background: red;
+                }
+        </style>
+</head>
+
+<body>
+        <p class="blue">Click to toggle (<span>clicks: 0</span>)</p>
+        <p class="blue highlight">highlight (<span>clicks: 0</span>)</p>
+        <p class="blue">on these (<span>clicks: 0</span>)</p>
+        <p class="blue">paragraphs (<span>clicks: 0</span>)</p>
+
+        <script>
+                var count = 0;         //waht is this?
+                $("p").each(function () {
+                        var $thisParaghraph = $(this)
+                        var count = 0;
+                        $thisParaghraph.click(function () {
+                                count += 5
+                                console.log(count)
+                                $thisParaghraph.find("span").text("click : " + count)
+                                $thisParaghraph.toggleClass("heighlight", count % 3 === 0)
+                        });
+                });
+        </script>
+</body>
+
+</html>
