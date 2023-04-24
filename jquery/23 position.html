@@ -10,16 +10,31 @@
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"
                 integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
+        <style>
+                div {
+                        padding: 15px;
+                }
+
+                p {
+                        margin-left: 10px;
+                }
+        </style>
+
 </head>
 
 <body>
-        <b>Hello</b>
-        <p>, how are you?</p>
+
+        <div>
+                <p>Hello</p>
+        </div>
+        <p></p>
 
         <script>
-                // $("p").append("data")
-                $("b").clone().prependTo("p");
+                var p = $("p").first();
+                var position = p.position();
+                $("p").last().text("left: " + position.left + ", top: " + position.top);
         </script>
+
 </body>
 
 </html>

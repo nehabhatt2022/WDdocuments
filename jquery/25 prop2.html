@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <title>prop demo</title>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+                integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+        <style>
+                p {
+                        margin: 20px 0 0;
+                }
+
+                b {
+                        color: blue;
+                }
+        </style>
+
+</head>
+
+<body>
+        <input name="" id="">
+        <input id="check1" type="checkbox" checked>
+        <label for="check1">Check me</label>
+        <p></p>
+
+        <script>
+                $("input").change(function () {
+                        var $input = $(this);
+                        $("p").html(
+                                ".attr( \"checked\" ): <b>" + $input.attr("checked") + "</b><br>" +
+                                ".prop( \"checked\" ): <b>" + $input.prop("checked") + "</b><br>" +
+                                ".is( \":checked\" ): <b>" + $input.is(":checked") + "</b>");
+                }).change();
+        </script>
+
+</body>
+
+</html>

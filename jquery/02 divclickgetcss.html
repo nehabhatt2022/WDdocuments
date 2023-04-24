@@ -53,6 +53,10 @@
                 $("div").click(function () {
                         var htmlcontent = ["this div/box's css"];
                         var styleproperty = $(this).css(["height", "width", "color", "background-color"]);
+                        // $(this).css("color")  get color of this ele
+                        // $(this).css("color","red") // set red color for thid element
+                        // console.log(styleProps);
+                        // return false;
                         $.each(styleproperty, function (key, value) {
                                 console.log("key : ", key, "value :", value);
                                 htmlcontent.push(key + ":" + value)

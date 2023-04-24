@@ -6,32 +6,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+                integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
         <style>
-                p {
-                        margin: 4px;
-                        font-size: 16px;
-                        font-weight: bolder;
-                }
-
-                .blue {
+                div {
                         color: blue;
-                }
-
-                .under {
-                        text-decoration: underline;
-                }
-
-                .highlight {
-                        background: yellow;
+                        font-size: 18px;
                 }
         </style>
+
 </head>
 
 <body>
-        <p class="blue under">Hello</p>
-        <p class="blue under highlight">and</p>
-        <p class="blue under">then</p>
-        <p class="blue under">Goodbye</p>
+
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <script>
+                $("div").html("<b>Wow!</b> Such excitement...");
+                $("div b").append(document.createTextNode("!!!")).css("color", "red");
+        </script>
+
 </body>
 
 </html>

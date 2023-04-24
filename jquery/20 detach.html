@@ -6,9 +6,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+                integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+        <style>
+                p {
+                        background: yellow;
+                        margin: 6px 0;
+                }
+
+                p.off {
+                        background: black;
+                }
+        </style>
+
 </head>
 
 <body>
+
+        <p>Hello</p>
+        how are
+        <p>you?</p>
+        <button>Attach/detach paragraphs</button>
+
+        <script>
+                // $( "p" ).click(function() {
+                //   $( this ).toggleClass( "off" );
+                // });
+                var p;
+                $("button").click(function () {
+                        if (p) {
+                                p.appendTo("body");
+                                p = null;
+                        } else {
+                                p = $("p").detach();
+                        }
+                });
+        </script>
 
 </body>
 
