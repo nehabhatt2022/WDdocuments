@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js">
+        </script>
+        <style>
+                div {
+                        background-color: green;
+                        height: 100px;
+                        width: 100px;
+                        margin-top: 10px;
+                }
+
+                #b1 {
+                        margin-top: 10px;
+                }
+        </style>
+</head>
+
+<body>
+        <div id="box"></div>
+        <!-- click here and animation will start -->
+        <button id="b1">Click Here !</button>
+        <!-- jQuery code to show the animate method -->
+        <script>
+                $(document).ready(function () {
+                        $("#b1").click(function () {
+                                $("#box").animate({
+                                        height: "200px",
+                                        width: "200px"
+                                }, {
+                                        duration: 1000,
+                                        easing: "linear",
+                                        complete: function () {
+                                                $(this).after(
+                                                        "<p>Reaches to maximum height and width !</p>");
+                                        }
+                                });
+                        });
+                });
+        </script>
+</body>
+
+</html>

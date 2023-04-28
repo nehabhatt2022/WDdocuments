@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Including jQuery  -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+                </script>
+
+        <style>
+                h1 {
+                        color: #006600;
+                }
+
+                button {
+                        color: white;
+                        background-color: #006600;
+                        width: auto;
+                        height: 30px;
+                }
+
+                body {
+                        text-align: center;
+                }
+
+                div {
+                        margin: 10px;
+                        height: 150px;
+                        width: 150px;
+                        position: relative;
+                        text-align: center;
+                        display: flex;
+                        left: 215px;
+                }
+
+                .bg-black {
+                        background-color: black;
+                }
+        </style>
+</head>
+
+<body>
+        <h1>Geeks For Geeks</h1>
+
+        <button id="btnadd"> ADD CLASS </button>
+        <button id="btnremove"> REMOVE CLASS </button>
+
+
+        <div id="GFG_IMAGE">
+
+                <!-- Image added using img tag 
+            with src attribute -->
+                <img src="https://write.geeksforgeeks.org/static/media/Group%20210.08204759.svg" height='150px'
+                        width='150px'>
+                <img>
+        </div>
+
+        <script>
+                $(document).ready(function () {
+                        $('#btnadd').click(function () {
+                                $('img').addClass('bg-black');
+                        });
+                        $('#btnremove').click(function () {
+                                $('img').removeClass('bg-black');
+                        });
+                });
+        </script>
+</body>
+
+</html>

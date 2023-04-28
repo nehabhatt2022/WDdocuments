@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <script src="
+https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+
+</head>
+
+<body>
+
+        <p id="para">Chaining method in jQuery</p>
+
+        <button>Click me</button>
+
+        <script type="text/javascript">
+                $(document).ready(function () {
+                        $("button").click(function () {
+                                $("#para").css("color", "blue").animate({
+                                        width: "100%"
+                                })
+                                        //it adds animation to the program by styling it
+                                        .animate({
+                                                fontSize: "46px"
+                                        })
+                                        .animate({
+                                                borderWidth: 30
+                                        });
+                        });
+                });
+        </script>
+</body>
+
+</html>

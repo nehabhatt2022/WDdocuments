@@ -1,0 +1,43 @@
+<html>
+
+<head>
+        <title>GEEKS FOR GEEKS ARTICLE</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/
+                 jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+                $(document).ready(function () {
+                        $("ul").filter(function () {
+                                return $("li", this).length == 2;
+                        }).css("color", "red").css("fontSize", "20");
+                });
+        </script>
+</head>
+
+<body>
+        A list with two elements:
+        <ul>
+                <li>option1</li>
+                <li>option2</li>
+        </ul>
+        A list with one element:
+        <ul>
+                <li>option1</li>
+        </ul>
+        A list with two elements:
+        <ul>
+                <li>option1</li>
+                <li>option2</li>
+        </ul>
+        A list with three elements:
+        <ul>
+                <li>option1</li>
+        </ul>
+        <ul>
+                <li>option2</li>
+        </ul>
+        <ul>
+                <li>option3</li>
+        </ul>
+</body>
+
+</html>

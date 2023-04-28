@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <div class="w3-col l10 m12" id="main">
+                <div id="mainLeaderboard" style="overflow:hidden;">
+                        <!-- MainLeaderboard-->
+
+                </div>
+                <h1>jQuery - <span class="color_h1">The noConflict() Method</span></h1>
+
+                <hr>
+                <p class="intro">What if you wish to use other frameworks on your pages,
+                        while still using jQuery?</p>
+                <hr>
+
+                <h2>jQuery and Other JavaScript Frameworks</h2>
+                <p>As you already know; jQuery uses the <code class="">$</code> sign as a shortcut for jQuery.</p>
+                <p>There are many other popular JavaScript frameworks like: Angular, Backbone, Ember, Knockout, and
+                        more.</p>
+                <p><b>What if other JavaScript frameworks also use the $ sign as a shortcut?</b></p>
+                <p>If two different frameworks are using the same shortcut, one of them might stop working.</p>
+                <p>The jQuery team have already thought about this, and implemented the <code
+                                class="">noConflict()</code> method.</p>
+                <hr>
+
+                <h2>The jQuery noConflict() Method</h2>
+                <p>The <code class="">noConflict()</code> method releases the hold on the $ shortcut identifier,
+                        so that other scripts can use it.</p>
+                <p>You can of course still use jQuery, simply by
+                        writing the full name instead of the shortcut:</p>
+                <div class="">
+                        <h3>Example</h3>
+                        <div class="notranslate jsHigh"><span class="jscolor" style="color:black">
+                                        $.<span class="" style="color:black">noConflict</span>();<br>
+                                        jQuery(document).<span class="" style="color:black">ready</span>(<span class=""
+                                                style="color:mediumblue">function</span>(){<br><span class=""
+                                                style="color:red">
+                                        </span>&nbsp;&nbsp;jQuery(<span class=""
+                                                style="color:brown">"button"</span>).<span class=""
+                                                style="color:black">click</span>(<span class=""
+                                                style="color:mediumblue">function</span>(){<br><span class=""
+                                                style="color:red">
+                                        </span> &nbsp;&nbsp;&nbsp; jQuery(<span class=""
+                                                style="color:brown">"p"</span>).<span class=""
+                                                style="color:black">text</span>(<span class=""
+                                                style="color:brown">"jQuery is still working!"</span>);<br><span
+                                                class="" style="color:red">
+                                        </span>&nbsp;&nbsp;});<br><span class="" style="color:red">
+                                        </span>});<span class="" style="color:red">
+                                        </span> </span></div>
+
+                </div>
+                <p>You can also create your
+                        own shortcut very easily. The <code class="">noConflict()</code> method returns a reference to
+                        jQuery,
+                        that you can save in a variable, for later use. Here is an example:</p>
+                <div class="">
+                        <h3>Example</h3>
+                        <div class="notranslate jsHigh"><span class="jscolor" style="color:black">
+                                        <span class="" style="color:mediumblue">var</span> jq = $.<span class=""
+                                                style="color:black">noConflict</span>();<br>
+                                        jq(document).<span class="" style="color:black">ready</span>(<span class=""
+                                                style="color:mediumblue">function</span>(){<br><span class=""
+                                                style="color:red">
+                                        </span>&nbsp;&nbsp;jq(<span class="" style="color:brown">"button"</span>).<span
+                                                class="" style="color:black">click</span>(<span class=""
+                                                style="color:mediumblue">function</span>(){<br><span class=""
+                                                style="color:red">
+                                        </span>&nbsp;&nbsp;&nbsp; jq(<span class=""
+                                                style="color:brown">"p"</span>).<span class=""
+                                                style="color:black">text</span>(<span class=""
+                                                style="color:brown">"jQuery is still working!"</span>);<br><span
+                                                class="" style="color:red">
+                                        </span>&nbsp;&nbsp;});<br><span class="" style="color:red">
+                                        </span>});<span class="" style="color:red">
+                                        </span> </span></div>
+
+                </div>
+                <p>If you have a block of jQuery code which uses the <code class="">$</code> shortcut and you do not
+                        want to change it all, you can pass the <code class="">$</code> sign in as a parameter to the
+                        ready method. This allows
+                        you to access jQuery using <code class="">$</code>, inside this function - outside of it,
+                        you will have to use "jQuery":</p>
+                <div class="">
+                        <h3>Example</h3>
+                        <div class="notranslate jsHigh"><span class="jscolor" style="color:black">
+                                        $.<span class="" style="color:black">noConflict</span>();<br>
+                                        jQuery(document).<span class="" style="color:black">ready</span>(<span class=""
+                                                style="color:mediumblue">function</span>($){<br><span class=""
+                                                style="color:red">
+                                        </span> &nbsp; $(<span class="" style="color:brown">"button"</span>).<span
+                                                class="" style="color:black">click</span>(<span class=""
+                                                style="color:mediumblue">function</span>(){<br><span class=""
+                                                style="color:red">
+                                        </span> &nbsp;&nbsp;&nbsp; $(<span class=""
+                                                style="color:brown">"p"</span>).<span class=""
+                                                style="color:black">text</span>(<span class=""
+                                                style="color:brown">"jQuery is still working!"</span>);<br><span
+                                                class="" style="color:red">
+                                        </span>&nbsp;&nbsp;});<br><span class="" style="color:red">
+                                        </span>});<span class="" style="color:red">
+                                        </span> </span></div>
+                </div>
+                <hr>
+
+        </div>
+</body>
+
+</html>
