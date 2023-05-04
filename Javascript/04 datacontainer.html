@@ -11,6 +11,16 @@
 <body>
         <p>variable</p>
         <p>vari+able => hold value that we can made changes on it through out program execution</p>
+        <p>store data in variable for make some operations</p>
+        <ul>
+                <li>let</li>
+                <li>var</li>
+                <li>const</li>
+        </ul>
+        <p>variable start with aplha val only</p>
+        <p>variable not allowed start with number and spec sym like @!%$ </p>
+        <p>variable not allows space</p>
+        <p>variable _ allowed</p>
         <script>
                 marks = 50
                 console.log(marks);
@@ -22,16 +32,34 @@
                 // let usename_let = "TOPS_let" // let donet allow to re-declaration of that variable
                 // usename_let = "Data Change TOPS_let " // let allows re-assign new value
                 // console.log(usename_let);
+
                 var usename_var = "TOPS_var"
                 var usename_var = "TOPS_var redeclare" // var allows re-declaration
                 // usename_var = "TOPS_var re-assign" // var allows re-assigment
                 console.log(usename_var);
+
                 const usename_const = "TOPS_const"
                 // const usename_const = "TOPS_const" //not allowed re-declaration
                 // usename_const = "TOPS_const" // not allowed
                 console.log(usename_const);
         </script>
 
+
+        <h2>Array</h2>
+        <p>Array will helps to store multiple data in single variable </p>
+        <p>Array stores its data in key => value pair</p>
+        <p>Array keys always have numberic values only and its start with 0 and incresing by 1</p>
+        <script>
+                let StdMarks = 50;
+                let Student1Maths = 50;
+                let Student1Eng = 50;
+                let Student1Guj = 50;
+                let Student1Com = 50;
+                let Student1Hin = 50;
+                let Stundet1Marks = [60, 90, 80, 50];
+                console.log(Stundet1Marks);
+                console.log(Stundet1Marks[1]);
+        </script>
 </body>
 
 </html>
