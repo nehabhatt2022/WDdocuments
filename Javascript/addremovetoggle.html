@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                .prb {
+                        background-color: teal;
+                        color: whitesmoke;
+                }
+        </style>
+</head>
+
+<body>
+        <!-- <p id="custom-para" class="somehing data">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit veniam eos facilis molestiae illum repellendus mollitia blanditiis alias suscipit unde nobis dolore magni et, minus quam corrupti quasi ad rerum.</p> -->
+        <p id="custom-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit veniam eos facilis molestiae
+                illum repellendus mollitia blanditiis alias suscipit unde nobis dolore magni et, minus quam corrupti
+                quasi ad rerum.</p>
+        <button id="addclass">Add Class</button>
+        <button id="removeclass">Remove Class</button>
+        <input type="button" name="" value="on" id="btn">
+        <button onclick="toggleClassExample()">Toggle Class</button>
+        <div id="ele">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt blanditiis atque facere dolore sequi
+                        minus possimus sed quam deserunt quos aliquam culpa ducimus, aperiam nam laboriosam debitis eius
+                        cumque?</p>
+        </div>
+        <button id="changeEle">Changeele</button>
+        <script>
+                document.getElementById("addclass").addEventListener("click", function () {
+                        // console.log("addclass called");
+                        let data = document.getElementById("custom-para")
+                        // let data = document.getElementById("custom-para").classList
+                        // document.getElementById("custom-para").classList.add('prb')
+                        // console.log(data);
+                        // console.log(data.classList);
+                        data.classList.add("prb")
+                })
+                document.getElementById("removeclass").addEventListener("click", function () {
+                        document.getElementById("custom-para").classList.remove("prb")
+                })
+                document.getElementById("changeEle").addEventListener("click", function () {
+                        document.getElementById("ele").innerHTML = "<h2>Something</h2>"
+                        // document.getElementById("ele").innerText="<h2>Something</h2>"
+                })
+                function toggleClassExample() {
+                        // console.log("toggleClassExample called");
+                        let custp = document.getElementById("custom-para").classList
+                        document.getElementById("btn").value = "Off"
+                        // let btn = document.getElementById("btn").value
+                        console.log(btn);
+                        // console.log(custp);
+                        // console.log(custp.length);
+                        if (custp.length > 0) {
+                                console.log(custp[0]);
+                                console.log("inside if");
+                                if (custp[0] == 'prb') {
+                                        document.getElementById("custom-para").classList.remove("prb")
+                                }
+                        } else {
+                                document.getElementById("custom-para").classList.add("prb")
+                        }
+                }
+        </script>
+</body>
+
+</html>

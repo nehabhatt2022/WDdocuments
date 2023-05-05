@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                .para-clr {
+                        background-color: teal;
+                        color: white;
+                }
+        </style>
+</head>
+
+<body>
+
+        <p class="Test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quasi doloremque excepturi qui
+                odit maxime, fugiat nemo amet dolor vel mollitia possimus voluptate dolore doloribus? Obcaecati quos
+                odio dicta quaerat.</p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quasi doloremque excepturi qui odit maxime, fugiat nemo amet dolor vel mollitia possimus voluptate dolore doloribus? Obcaecati quos odio dicta quaerat.</p> -->
+        <button id="btn">Click</button>
+        <button id="remove-class">Remove Class</button>
+        <button id="toggle-class">Toggle Class</button>
+        <script>
+                let para = document.querySelector('p')
+                document.getElementById("btn").addEventListener("click", function () {
+                        para.classList.add("para-clr")
+                })
+                document.getElementById("remove-class").addEventListener("click", function () {
+                        para.classList.remove("para-clr")
+                })
+                document.getElementById("toggle-class").addEventListener("click", function () {
+                        console.log(para.classList);
+                        var classes = para.className.replace(/\s{2,}/g, ' ').split(" ");
+                        // console.log(classes);
+                        for (i = 0; i < classes.length; i++) {
+                                // console.log(classes[i]);
+                                if (classes[i] == "para-clr") {
+                                        console.log("inside if");
+                                        para.classList.remove("para-clr")
+                                } else {
+                                        para.classList.add("para-clr")
+                                        console.log("inside else");
+                                }
+                        }
+                })
+        </script>
+</body>
+
+</html>

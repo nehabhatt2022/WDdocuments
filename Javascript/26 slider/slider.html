@@ -15,16 +15,16 @@
                 }
 
                 .effect {
-                        animation: slidereffect 10s linear infinite;
+                        animation: slidereffect 2s;
                 }
 
                 @keyframes slidereffect {
                         0% {
-                                transform: translateX(100px);
+                                transform: rotate(1deg) scale(0);
                         }
 
                         100% {
-                                transform: translateX(0px);
+                                transform: rotate(360deg) scale(1);
                         }
 
 
@@ -33,7 +33,7 @@
 </head>
 
 <body>
-        <img class="slider-img" src="image1.pmg" alt="">
+        <img class="slider-img" src="image1.png" alt="">
         <img class="slider-img" src="image2.png" alt="">
         <img class="slider-img" src="image3.png" alt="">
         <img class="slider-img" src="image4.png" alt="">

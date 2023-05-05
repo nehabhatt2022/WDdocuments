@@ -9,7 +9,38 @@
 </head>
 
 <body>
+        <img class="slider-img" src="image1.png" alt="">
+        <img class="slider-img" src="image2.png" alt="">
+        <img class="slider-img" src="image3.png" alt="">
+        <img class="slider-img" src="image4.png" alt="">
+        <img class="slider-img" src="image5.png" alt="">
 
+        <script>
+                counter = 0
+                function slider(params) {
+                        SliderImageData = document.getElementsByClassName("slider-img")
+                        console.log(SliderImageData);
+                        for (let index = 0; index < SliderImageData.length; index++) {
+                                const element = SliderImageData[index];
+                                console.log(element);
+                                SliderImageData[index].style.display = "none"
+                                SliderImageData[index].classList.remove("slider-effect")
+                        }
+                        // console.log("counter",counter);
+                        // console.log("SliderImageData.length",SliderImageData.length);
+                        if (counter >= SliderImageData.length) {
+                                counter = 0
+                        }
+                        SliderImageData[counter].style.display = "block"
+                        SliderImageData[counter].classList.add("slider-effect")
+                        setTimeout(() => {
+                                counter++;
+                                slider()
+                        }, 3000);
+                }
+
+                slider()
+        </script>
 </body>
 
 </html>
