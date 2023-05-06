@@ -1,0 +1,126 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* border: 1px solid; */
+        font-family: sans-serif;
+}
+
+.container {
+        width: 1140px;
+        margin: 0 auto;
+}
+
+.section {
+        background: linear-gradient(90deg, rgb(12, 211, 234) 22%, rgba(79, 198, 205, 0.948) 100%);
+}
+
+.row {
+        display: flex;
+}
+
+.col25 {
+        width: 25%;
+        background: linear-gradient(90deg, rgba(74, 172, 166, 1) 22%, rgba(0, 242, 255, 0.9479903533679097) 100%);
+}
+
+.col30 {
+        width: 30%;
+}
+
+.col40 {
+        width: 40%;
+}
+
+.col60 {
+        width: 60%;
+}
+
+.col70 {
+        width: 70%;
+}
+
+.col75 {
+        width: 75%;
+}
+
+.aln-cen {
+        align-items: center;
+}
+
+.jus-cen {
+        justify-content: center;
+}
+
+.sec1 {
+        text-align: center;
+}
+
+.sec1-icon {
+        font-size: 80px;
+        text-align: center;
+        padding: 10px 0;
+}
+
+.sec1-icon i {
+        padding: 30px;
+        background-color: rgb(18, 135, 151);
+        border-radius: 50%;
+}
+
+.sec1-text-1 {
+        font-size: 20px;
+}
+
+.sec1-text-1 h2,
+.sec1-text-1 p {
+        padding: 5px 0;
+}
+
+.sec1-text-2 {
+        font-size: 30px;
+        padding: 20px 0;
+}
+
+.sec1-text-2 p i {
+        padding: 10px 10px;
+}
+
+.sec1-text-2 p span {
+        padding: 10px 10px;
+}
+
+.sec2 {
+        padding: 20px;
+        background-color: azure;
+}
+
+.sec2-text p {
+        font-size: 10px;
+        padding: 5px 0;
+}
+
+.sec2-text h3 {
+        font-size: 15px;
+        padding: 5px 0;
+}
+
+.sec2-text h2 {
+        font-size: 25px;
+        padding: 5px 0;
+}
+
+.sec2-input {
+        padding: 20px 0;
+}
+
+.sec2-input i {
+        font-size: 40px;
+        padding: 0 10px;
+}
+
+.sec2-input input {
+        /* padding: 10px 0; */
+        width: 80%;
+        height: 10px;
+}
