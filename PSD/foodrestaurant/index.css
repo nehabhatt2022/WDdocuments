@@ -46,6 +46,10 @@ p {
         justify-content: space-between;
 }
 
+.jc-sp-aro {
+        justify-content: space-around;
+}
+
 .po-rel {
         position: relative;
 }
@@ -222,14 +226,31 @@ p {
         padding: 30px 0;
 }
 
-.sec3-text h2 {
-        font-size: 30px;
-        padding: 10px 0;
+.sec3-box {
+        /* font-size: 30px; */
+        padding: 20px;
         text-align: center;
 }
 
-.one {
+.sec3-box h3 {
+        font: 20px;
         padding: 20px;
+        color: #7287ae;
         background-color: #ffffff;
         border-radius: 50%;
+        width: 62px;
+        margin: 0 auto;
+}
+
+
+.sec3-box h2 {
+        font-size: 25px;
+        padding: 20px 0;
+        /* text-align: center; */
+}
+
+.sec3-box p {
+        font-size: 15px;
+        /* text-align: justify; */
+        padding: 10px 0;
 }

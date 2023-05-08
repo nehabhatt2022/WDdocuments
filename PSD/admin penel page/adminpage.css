@@ -21,7 +21,7 @@
 
 .col25 {
         width: 25%;
-        background: linear-gradient(90deg, rgba(74, 172, 166, 1) 22%, rgba(0, 242, 255, 0.9479903533679097) 100%);
+
 }
 
 .col30 {
@@ -34,6 +34,10 @@
 
 .col60 {
         width: 60%;
+}
+
+.col65 {
+        width: 65%;
 }
 
 .col70 {
@@ -52,8 +56,13 @@
         justify-content: center;
 }
 
+.jus-sb {
+        justify-content: space-between;
+}
+
 .sec1 {
         text-align: center;
+        background: linear-gradient(90deg, rgba(74, 172, 166, 1) 22%, rgba(0, 242, 255, 0.9479903533679097) 100%);
 }
 
 .sec1-icon {
@@ -91,8 +100,13 @@
 }
 
 .sec2 {
-        padding: 20px;
+        padding: 30px;
         background-color: azure;
+
+}
+
+.sec2-1 {
+        border-bottom: 5px solid grey;
 }
 
 .sec2-text p {
@@ -102,7 +116,7 @@
 
 .sec2-text h3 {
         font-size: 15px;
-        padding: 5px 0;
+        padding: 15px 0;
 }
 
 .sec2-text h2 {
@@ -124,3 +138,11 @@
         width: 80%;
         height: 10px;
 }
+
+.sec2-2 {
+        padding: 20px 0;
+}
+
+/* .chart1 {
+        box-shadow: 1px 1px 5px;
+} */
