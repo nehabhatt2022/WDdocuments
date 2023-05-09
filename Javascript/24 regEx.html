@@ -19,7 +19,7 @@
                         // let RegEx = /^[A-Z]+$/
                         // let RegEx = /^[0-9]+$/
                         RegEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-                        // RegExp = /^([a-zA-Z0-9_\.\-])+\@+((a-zA-Z0-9\-)+\.)+([a-zA-Z0-9]{2,4})$/ 
+                        // RegExp = /^([a-zA-Z0-9_\.\-])+\@+((a-zA-Z0-9\-)+\.)+([a-zA-Z0-9]{2,4})$/
                         console.log(RegEx.test(inpval));
                         if (RegEx.test(inpval)) {
                                 document.getElementById("ErrorSpan").innerHTML = ""

@@ -179,6 +179,9 @@ p {
         width: 50%;
 }
 
+.col20 {
+        width: 20%;
+}
 
 /* ------sec-2---- */
 
@@ -253,4 +256,119 @@ p {
         font-size: 15px;
         /* text-align: justify; */
         padding: 10px 0;
+}
+
+.sec4 {
+        background-image: url(sec4img.png);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        color: #7287ae;
+        text-align: center;
+}
+
+.sec4-text {
+        width: 60%;
+        margin: 0 auto;
+}
+
+.sec4-text h2 {
+        font-size: 30px;
+        padding: 20px 0;
+}
+
+.sec4-text p {
+        font-size: 20px;
+        padding: 20px 0;
+
+}
+
+.sec5 {
+        color: #7287ae;
+        padding: 50px 0;
+        text-align: center;
+}
+
+.sec5-text {
+        width: 60%;
+        margin: 0 auto;
+}
+
+.sec5-text img {
+        padding: 20px;
+}
+
+.sec5-text h2 {
+        font-size: 25px;
+        padding: 20px 0;
+}
+
+.sec5-text p {
+        font-size: 20px;
+        padding: 20px 0;
+}
+
+.sec5-icon {
+        font-size: 35px;
+        padding: 10px 0;
+}
+
+.sec5-icon i {
+        padding: 10px;
+}
+
+.footer {
+        background-image: url(footer1.png);
+        background-repeat: no-repeat;
+        color: #ffffff;
+        background-position: center;
+        overflow: hidden;
+}
+
+.sec5,
+.footer {
+        overflow-x: clip;
+}
+
+.footer2 {
+        top: -1px;
+        left: -265px;
+        z-index: -2;
+}
+
+
+
+.footer3 {
+        top: 4px;
+        left: -5px;
+        z-index: -2;
+}
+
+.footer-main {
+        padding: 185px 0;
+        /* overflow: hidden; */
+}
+
+.footer-text-1,
+.footer-text-2 {
+        padding: 30px 0;
+}
+
+.footer-text-1 h2,
+.footer-text-2 h2 {
+        font-size: 20px;
+        padding: 25px 0;
+}
+
+.footer-text-1 p,
+.footer-text-2 p {
+        font-size: 15px;
+}
+
+.footer-text-1 p {
+        padding: 10px 0;
+}
+
+.footer-text-2 p {
+        padding: 5px 0;
 }
