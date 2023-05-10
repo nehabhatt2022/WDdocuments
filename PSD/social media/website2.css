@@ -6,7 +6,45 @@
 
 @font-face {
         font-family: dm-sans;
-        src: url();
+        src: url(dm-sans-cufonfonts/DMSans-Medium.ttf);
+}
+
+@font-face {
+        font-family: old standard-tt;
+        src: url(Old-Standard-TT/OldStandard-Bold.ttf);
+}
+
+
+h2,
+p {
+        font-family: dm-sans;
+}
+
+h1,
+h3 {
+        font-family: old standard-tt;
+}
+
+.container {
+        width: 1140px;
+        margin: 0 auto;
+        position: relative;
+}
+
+.row {
+        display: flex;
+}
+
+.jc-space-between {
+        justify-content: space-between;
+}
+
+.align-item-center {
+        align-items: center;
+}
+
+.jc-center {
+        text-align: center;
 }
 
 .sec1 {
@@ -14,19 +52,8 @@
         color: #0b5e98;
 }
 
-.container {
-        width: 90%;
-        margin: 0 auto;
-        position: relative;
-}
 
-.navbar {}
-
-.row {
-        display: flex;
-}
-
-.width80 {
+.navbar {
         width: 90%;
 }
 
@@ -54,27 +81,23 @@
         width: 30%;
 }
 
-.jc-space-between {
-        justify-content: space-between;
-}
-
 .sec1-text {
-        padding-top: 100px;
+        padding: 100px 0;
 }
 
 .sec1-text h2 {
         font-size: 20px;
         text-align: center;
-        /* padding-bottom: 20px; */
+        padding: 20px 0;
 }
 
 .sec-1text p {
         font-size: 10px;
         text-align: justify;
+        padding: 10px 0;
 }
 
-.btn1,
-.btn2 {
+.btn1 {
         text-align: center;
 }
 
@@ -85,6 +108,12 @@
         height: 30px;
         width: 150px;
         border: none;
+        text-align: center;
+        margin: 20px 0;
+}
+
+.btn2 {
+        text-align: center;
 }
 
 .btn2 input {
@@ -93,12 +122,12 @@
         background-color: #eae8d7;
         height: 30px;
         padding: 0 10px;
-        /* width: 150px; */
         border-color: #0b5e98;
+        margin: 20px 0;
 }
 
-.align-item-center {
-        align-items: center;
+.sec1-border {
+        border-top: 1px solid #0b5e98;
 }
 
 .padding-20 {
@@ -141,9 +170,6 @@
         /* left: 0px; */
 }
 
-.jc-center {
-        text-align: center;
-}
 
 .sec-2 {
         background-color: #0b5e98;

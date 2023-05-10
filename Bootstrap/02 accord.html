@@ -254,7 +254,7 @@
         <button type="button" class="btn btn-link">Link</button>
 
         <h2>card</h2>
-        <div class="card" style="width: 18rem;">
+        <div class="card d-block mx-auto" style="width: 18rem;">
                 <img src="image1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -437,10 +437,13 @@
         </div>
 
         <h2>popovers</h2>
-        <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title"
+        <!-- <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title"
                 data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle
+                popover</button> -->
+        <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title"
+                data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                data-bs-placement="right">Click to toggle
                 popover</button>
-
         <h2>progress</h2>
         <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
                 aria-valuemax="100">
@@ -525,6 +528,28 @@
                 data-bs-custom-class="custom-tooltip" data-bs-title="This top tooltip is themed via CSS variables.">
                 Custom tooltip
         </button>
+
+        <script>
+                const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+                const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        </script>
+
+        <script>
+
+                const toastTrigger = document.getElementById('liveToastBtn')
+                const toastLiveExample = document.getElementById('liveToast')
+
+                if (toastTrigger) {
+                        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+                        toastTrigger.addEventListener('click', () => {
+                                toastBootstrap.show()
+                        })
+                }
+        </script>
+        <script>
+                const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+                const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
 </body>
 
 </html>
