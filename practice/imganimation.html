@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<style>
+        .box {
+                /* height: 500px; */
+                width: 500px;
+                border: 2px solid;
+                position: relative;
+                overflow: hidden;
+        }
+
+        .box::before {
+                content: "";
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.428);
+                /* bottom: 100%; */
+                top: 100%;
+                /* display: none; */
+                transition: all 2s ease;
+                z-index: 1;
+        }
+
+        .box:hover img {
+                transform: scale(1.1);
+
+        }
+
+        .box:hover::before {
+                top: 0%;
+                /* display: block; */
+        }
+
+        img {
+                display: block;
+                width: 100%;
+                object-fit: cover;
+                transition: all 2s ease;
+        }
+</style>
+
+<body>
+        <div class="container">
+                <div class="box">
+                        <img src="business-woman.png" alt="">
+                </div>
+        </div>
+</body>
+
+</html>
