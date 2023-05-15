@@ -10,18 +10,18 @@
         font-family: cardo;
 }
 
-/* .font-family1 {
+.font-family1 {
         font-family: cardo;
-} */
+}
 
 @font-face {
         font-family: lato;
         src: url(./Lato2OFL/Lato2OFL/Lato-Light.ttf);
 }
 
-/* .font-family2 {
+.font-family2 {
         font-family: lato;
-} */
+}
 
 h2,
 h3 {
@@ -43,7 +43,7 @@ p {
 }
 
 .container {
-        width: 1140px;
+        width: 90%;
         margin: 0 auto;
 }
 
@@ -52,43 +52,10 @@ p {
         flex-wrap: wrap;
 }
 
-.col40 {
-        width: 100%;
-}
-
-.col60 {
-        width: 100%;
-}
-
-.col30 {
-        width: 100%;
-}
-
-.col70 {
-        width: 100%;
-}
-
-.col30 {
-        width: 100%;
-}
-
-.col20 {
-        width: 100%;
-}
-
-.col80 {
-        width: 100%;
-}
-
-.col25 {
-        width: 100%;
-}
-
 .jc-sp-bt {
         justify-content: space-between;
 }
 
-/* ------------------------------------------------------ */
 .menu {
         display: flex;
         list-style: none;
@@ -96,6 +63,11 @@ p {
 
 .menu li {
         padding: 40px 30px;
+}
+
+.menu li a {
+        text-decoration: none;
+        color: #232323;
 }
 
 .nav-btn {
@@ -113,9 +85,16 @@ p {
 }
 
 .header-main {
-        padding: 20px 0;
+        padding: 50px 0;
 }
 
+.col40 {
+        width: 40%;
+}
+
+.col60 {
+        width: 60%;
+}
 
 .header-text {
         width: 90%;
@@ -124,7 +103,6 @@ p {
 .header-text h2 {
         font-size: 70px;
         padding: 10px 0;
-        line-height: 60px;
 }
 
 .header-text p {
@@ -148,9 +126,8 @@ p {
         width: 100%;
 }
 
-/* --------------------------------------------------------- */
 .sec2-text {
-        width: 90%;
+        width: 30%;
         margin: 0 auto;
         padding: 20px;
         text-align: center;
@@ -179,13 +156,13 @@ p {
         border-radius: 5px;
 }
 
-
-/* ------------------------------------------------------------------ */
 .sec3 {
-        padding: 20px 0;
+        padding: 100px 0;
 }
 
-
+.col30 {
+        width: 30%;
+}
 
 .sec3-img img {
         width: 100%;
@@ -205,13 +182,12 @@ p {
         padding: 10px 0;
 }
 
-/* -------------------------------------------------- */
 .sec4 {
-        padding: 10px 0;
+        padding: 100px 0;
 }
 
 .sec4-text {
-        width: 100%;
+        width: 55%;
         text-align: center;
         margin: 0 auto;
 }
@@ -222,8 +198,7 @@ p {
 
 .sec4-text h2 {
         font-size: 80px;
-        padding: 10px 0;
-        line-height: 80px;
+        padding: 20px 0;
 }
 
 .sec4-text h3 {
@@ -235,7 +210,6 @@ p {
         font-style: italic;
 }
 
-/* ---------------------------------------------------- */
 .sec5 {}
 
 .sec5-img-1 {
@@ -251,7 +225,7 @@ p {
 }
 
 .sec5-img-2 {
-        width: 100%;
+        width: 60%;
 }
 
 .sec5-img-2 img {
@@ -289,13 +263,12 @@ p {
         font-size: 50px;
 }
 
-/* ---------------------------------------------------- */
 .sec6 {
-        padding: 20px;
+        padding: 80px 0;
 }
 
 .sec6-1 {
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
 }
 
@@ -304,12 +277,12 @@ p {
 }
 
 .sec6-text-2 {
-        padding: 10px 0;
+        padding: 20px 0;
 }
 
 .sec6-text-2 h3 {
         font-size: 25px;
-        padding: 5px 0;
+        padding: 10px 0;
 }
 
 .sec6-text-2 p {
@@ -321,7 +294,13 @@ p {
         width: 100%;
 }
 
-/* ------------------------------------------------------- */
+.col70 {
+        width: 70%;
+}
+
+.col30 {
+        width: 30%;
+}
 
 .sec7 {
         padding: 80px 0;
@@ -369,16 +348,15 @@ p {
         width: 100%;
 }
 
-/* ------------------------------------------------- */
 .sec8 {
-        padding: 20px 0;
+        padding: 80px 0;
 }
 
 .sec8-text-1 {
         text-align: center;
         width: 50%;
         margin: 0 auto;
-        padding: 20px 0;
+        padding: 70px 0;
 }
 
 .sec8-text-1 h2 {
@@ -390,7 +368,6 @@ p {
         border: 1px solid #232323;
         border-radius: 5px;
         padding: 30px;
-        margin: 20px 0;
 }
 
 .sec8-icon {
@@ -422,7 +399,6 @@ p {
         padding: 10px 0;
 }
 
-/* ---------------------------------------------------- */
 .sec9 {
         padding: 50px 0;
 }
@@ -466,12 +442,21 @@ p {
         width: 100%;
 }
 
-/* ---------------------------------------------- */
 .footer {
         padding: 100px 0;
 }
 
+.col20 {
+        width: 20%;
+}
 
+.col80 {
+        width: 80%;
+}
+
+.col25 {
+        width: 25%;
+}
 
 .bg-grey {
         background-color: #c4c4c4;
@@ -502,5 +487,3 @@ p {
         font-size: 20px;
         text-align: center;
 }
-
-/* ---------------------------------- */

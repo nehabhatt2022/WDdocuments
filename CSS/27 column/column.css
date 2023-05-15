@@ -1,0 +1,15 @@
+.wrapper {
+        columns: 3;
+        column-rule-style: solid;
+        column-rule-width: 5px;
+        column-rule-color: orange;
+
+}
+
+article {
+        columns: 3;
+}
+
+h2 {
+        column-span: all;
+}

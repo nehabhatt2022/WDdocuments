@@ -1,0 +1,80 @@
+.conteriner {
+        width: 1200px;
+        margin: 0 auto;
+
+}
+
+header {
+        background-image: url(image.png);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+.row {
+        display: flex;
+}
+
+.link ul {
+        display: flex;
+}
+
+.link ul li a {
+        text-decoration: none;
+        color: aqua;
+        font-size: 30px;
+}
+
+.logo {
+        font-size: 22px;
+        color: darksalmon;
+}
+
+.color {
+        background-color: rgba(0, 0, 0, 0.248);
+}
+
+.link li {
+        margin: 0px 20px;
+        list-style: none;
+}
+
+.text1 h2 {
+        font-size: 30px;
+        text-align: center;
+        color: azure;
+}
+
+.align {
+        align-items: center;
+}
+
+.text2 h1 {
+        font-size: 60px;
+        text-align: center;
+        color: azure;
+}
+
+.bg1 {}
+
+.text3 h3 {
+        font-size: 25px;
+        text-align: center;
+        color: azure;
+}
+
+.btn {
+        text-align: center;
+        padding: 25px 0
+}
+
+.btn input {
+        padding: 20px 30px;
+        margin: 0 30px;
+
+}
+
+.js {
+        justify-content: space-between;
+}

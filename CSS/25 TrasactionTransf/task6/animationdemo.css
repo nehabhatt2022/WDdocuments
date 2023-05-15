@@ -1,0 +1,18 @@
+.img-box {
+        position: relative;
+        width: 200px;
+}
+
+.img-filud {
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+}
+
+.img-box::after {
+        content: '';
+        position: absolute;
+        color: red;
+        z-index: 2;
+        display: block;
+}
