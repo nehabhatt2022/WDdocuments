@@ -1,0 +1,8 @@
+.bg {
+        background: linear-gradient(#0000004f, #0000002d) !important;
+}
+
+.btn-bg {
+        background-color: rgba(228, 165, 143, 0.475);
+        border: none;
+}
