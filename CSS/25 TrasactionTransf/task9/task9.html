@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        list-style: none;
+                        /* border: 1px solid; */
+                }
+
+
+
+                .box {
+                        width: 700px;
+                        height: 395px;
+                        border: 2px solid;
+                        margin: 0 auto;
+                        position: absolute;
+                        overflow: hidden;
+                        top: 30px;
+                        left: 25px
+                }
+
+                .box::before {
+                        content: "";
+                        /* background-color: brown; */
+                        background-image: url(./psd-tamplet.png);
+                        background-position: top;
+                        background-size: cover;
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        transition: all 6s;
+
+                }
+
+                .box:hover::before {
+                        background-position: bottom;
+                }
+
+                img {
+                        width: 100%;
+                }
+
+                .img1 img {
+                        position: relative;
+                        width: 50%;
+
+                }
+        </style>
+</head>
+
+<body>
+        <div class="img1">
+                <img src="./download-removebg-preview.png" alt="">
+                <div class="box">
+
+                </div>
+        </div>
+</body>
+
+</html>

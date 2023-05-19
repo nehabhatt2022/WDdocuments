@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        list-style: none;
+                        /* border: 1px solid; */
+                }
+
+                .row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                }
+
+                ul li {
+                        display: inline-block;
+                }
+
+                #check:not(:checked)~header {
+                        background-color: blue !important;
+                }
+
+                #check:checked~header {
+                        background-color: navajowhite;
+                }
+
+                input {
+                        /* display: none; */
+                }
+
+                label span {
+                        display: block;
+                        width: 60px;
+                        height: 8px;
+                        background-color: #000;
+                        margin: 10px;
+                }
+        </style>
+</head>
+
+<body>
+        <input type="checkbox" id="check">
+        <header>
+                <div class="container ">
+                        <div class="row jsc align">
+                                <div class="menu-right">
+                                        <ul class="nav-bar">
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">Menu</a></li>
+                                                <li><a href="#">Our Story</a></li>
+                                                <li><a href="#">Contact Us</a></li>
+                                                <li><a href="#"><input type="text" name="" id=""><i
+                                                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                                </li>
+                                        </ul>
+                                </div>
+                                <label for="check">
+                                        <!-- <span></span>
+                    <span></span>
+                    <span></span> -->
+                                        sss
+                                </label>
+                        </div>
+                </div>
+        </header>
+</body>
+
+</html>
