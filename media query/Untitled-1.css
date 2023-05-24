@@ -43,7 +43,7 @@ p {
 }
 
 .container {
-        width: 1140px;
+        width: 100%;
         margin: 0 auto;
 }
 
@@ -95,11 +95,17 @@ p {
 }
 
 .menu li {
-        padding: 40px 30px;
+        padding: 40px 15px;
+
+}
+
+.menu li a {
+        text-decoration: none;
+        color: #232323;
 }
 
 .nav-btn {
-        padding: 40px 0;
+        padding: 40px 10px;
 
 }
 
@@ -123,7 +129,7 @@ p {
 }
 
 .header-text h2 {
-        font-size: 70px;
+        font-size: 55px;
         padding: 10px 0;
         line-height: 60px;
 }
@@ -222,7 +228,7 @@ p {
 }
 
 .sec4-text h2 {
-        font-size: 80px;
+        font-size: 60px;
         padding: 10px 0;
         line-height: 80px;
 }
@@ -368,7 +374,7 @@ p {
 }
 
 .sec7-text-1 h2 {
-        font-size: 75px;
+        font-size: 55px;
 }
 
 .sec7-img img {
@@ -388,7 +394,7 @@ p {
 }
 
 .sec8-text-1 h2 {
-        font-size: 70px;
+        font-size: 55px;
         line-height: 60px;
 }
 
@@ -485,12 +491,12 @@ p {
 
 .footer-text-1 h2 {
         font-size: 50px;
-        text-align: center;
+        /* text-align: center; */
 }
 
 .footer-text-2 h3 {
         font-size: 40px;
-        text-align: center;
+        /* text-align: center; */
 }
 
 .footer-text-3 {

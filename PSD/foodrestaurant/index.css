@@ -16,6 +16,7 @@ body {
         width: 1140px;
         margin: 0 auto;
         /* overflow: hidden; */
+        position: relative;
 }
 
 @font-face {
@@ -112,6 +113,27 @@ p {
         padding: 10px 0;
 }
 
+.dots {
+        top: 470px;
+        right: -55px;
+
+}
+
+.dots img,
+.dots2 img,
+.dots3 img,
+.dots4 img,
+.dots5 img,
+.dots6 img,
+.dots7 img {
+        width: 70%;
+}
+
+.dots2 {
+        top: 755px;
+        left: 100px;
+}
+
 .col30 {
         width: 30%;
 }
@@ -175,6 +197,11 @@ p {
         border-radius: 50px;
 }
 
+.dots3 {
+        top: 700px;
+        right: -95px;
+}
+
 .col50 {
         width: 50%;
 }
@@ -203,24 +230,41 @@ p {
         align-items: center;
 }
 
-.sec2-text {
-        /* width: 90%; */
-        /* margin: 0 auto; */
-        text-align: center;
+.sec2-1-text {
+        padding-left: 25px;
+        padding-right: 50px;
 }
 
-.sec2-text h2 {
+.sec2-2-text {
+        padding-right: 25px;
+        padding-left: 50px;
+}
+
+.sec2-1-text h2,
+.sec2-2-text h2 {
         font-size: 65px;
         padding: 10px 0;
 }
 
+.sec2-text p,
 .sec2-text p {
         font-size: 20px;
         padding: 10px 0;
+        text-align: justify;
 }
 
 .sec2-btn {
         padding: 50px 0;
+}
+
+.dots4 {
+        top: 615px;
+        left: 275px;
+}
+
+.dots5 {
+        bottom: -35px;
+        right: 85px;
 }
 
 .sec3 {
@@ -283,6 +327,11 @@ p {
 
 }
 
+.dots6 {
+        bottom: -140px;
+        right: 85px;
+}
+
 .sec5 {
         color: #7287ae;
         padding: 50px 0;
@@ -315,6 +364,11 @@ p {
 
 .sec5-icon i {
         padding: 10px;
+}
+
+.dots7 {
+        bottom: -120px;
+        left: 85px;
 }
 
 .footer {

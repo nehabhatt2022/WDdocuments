@@ -42,6 +42,11 @@
 
         .header-text h2 {
                 line-height: 60px;
+                font-size: 65px;
+        }
+
+        .menu li {
+                padding: 40px 15px;
         }
 
         /* .header-img img {
@@ -68,11 +73,12 @@
         }
 
         .sec4-text h2 {
-                padding: 10px 0;
+                /* padding: 10px 0; */
         }
 
         .sec4-text h2 {
                 line-height: 80px;
+                font-size: 65px;
         }
 
         /* .sec5-img-2 img {
@@ -155,11 +161,11 @@
         }
 
         .footer-text-1 h2 {
-                text-align: center;
+                /* text-align: center; */
         }
 
         .footer-text-2 h3 {
-                text-align: center;
+                /* text-align: center; */
         }
 }
 
@@ -168,8 +174,29 @@
                 width: 720px;
         }
 
+        .header-text h2 {
+                line-height: 80px;
+        }
 
+        .menu li {
+                padding: 40px 30px;
+        }
 
+        .sec4-text h2 {
+                font-size: 70px;
+        }
+
+        .sec7-text-1 h2 {
+                font-size: 60px;
+        }
+
+        .sec8-text-1 h2 {
+                font-size: 60px;
+        }
+
+        textarea {
+                /* rows: 50px; */
+        }
 
 }
 
@@ -179,8 +206,91 @@
                 width: 960px;
         }
 
+        .col40 {
+                width: 40%;
+        }
 
+        .col60 {
+                width: 55%;
+        }
 
+        .col30 {
+                width: 30%;
+        }
+
+        .col70 {
+                width: 65%;
+        }
+
+        .col30 {
+                width: 30%;
+        }
+
+        .col20 {
+                width: 100%;
+        }
+
+        .col80 {
+                width: 100%;
+        }
+
+        .col25 {
+                width: 25%;
+        }
+
+        .header-text {
+                width: 90%;
+                text-align: left;
+        }
+
+        .header-text h2 {
+                line-height: 60px;
+                font-size: 60px;
+        }
+
+        .menu li {
+                padding: 40px 30px;
+        }
+
+        .sec4 {
+                padding: 30px 0;
+        }
+
+        .sec4-text {
+                width: 55%;
+        }
+
+        .sec6-text-1 h2 {
+                font-size: 43px;
+        }
+
+        .sec6-text-2 {
+                padding: 10px 0;
+        }
+
+        .sec6-text-2 p {
+                font-size: 14px;
+        }
+
+        .sec7-textone {
+                padding: 35px 0;
+        }
+
+        .sec5-img-1 img {
+                height: 605px;
+        }
+
+        textarea {
+                height: 173px;
+        }
+
+        .footer-text-1 h2 {
+                text-align: center;
+        }
+
+        .footer-text-2 h3 {
+                text-align: center;
+        }
 }
 
 @media (min-width: 1200px) {
@@ -220,6 +330,30 @@
                 width: 25%;
         }
 
+        .header-text {
+                width: 90%;
+                text-align: left;
+        }
+
+        .header-text h2 {
+                font-size: 70px;
+                padding: 10px 0;
+                line-height: normal;
+        }
+
+        .header-text p {
+                font-size: 15px;
+                padding: 10px 0;
+        }
+
+        .header-btn {
+                padding: 20px 0;
+        }
+
+        .menu li {
+                padding: 40px 30px;
+        }
+
         .sec2-text {
                 width: 30%;
         }
@@ -246,14 +380,51 @@
 
         .sec6-1 {
                 width: 80%;
+        }
 
+        .sec6-text-1 h2 {
+                font-size: 50px;
         }
 
         .sec6-img img {
                 width: 100%;
         }
 
-        .sec8 {
+        .sec7-text {
+                width: 90%;
+        }
+
+        .sec7-textone {
+                padding: 50px 0;
+
+        }
+
+        .sec7-text-1 h2 {
+                font-size: 75px;
+        }
+
+        .sec9-input {
+                width: 90%;
+        }
+
+        .sec9-input h2 {
+                /* font-size: 70px; */
+                padding-bottom: 50px;
+        }
+
+        .sec9-btn input {
+                margin: 60px 0;
+        }
+
+        textarea {
+                height: 270px;
+        }
+
+        .footer-text-2 h3 {
+                text-align: left;
+        }
+
+        /* .sec8 {
                 padding: 80px 0;
         }
 
@@ -339,5 +510,5 @@
 
         .footer-text-2 h3 {
                 font-size: 40px;
-        }
+        } */
 }
