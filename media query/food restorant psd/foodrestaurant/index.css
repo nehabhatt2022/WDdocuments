@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-        width: 1140px;
+        width: 100%;
         margin: 0 auto;
         /* overflow: hidden; */
         position: relative;
@@ -412,22 +412,22 @@ p {
 }
 
 .footer-main {
-        padding: 185px 0;
+        /* padding: 185px 0; */
         /* overflow: hidden; */
 }
 
 .footer-text-1 {
-        padding: 30px 0;
+        /* padding: 30px 0; */
 }
 
 .footer-text-2 {
-        padding: 30px 0;
+        /* padding: 30px 0; */
 }
 
 .footer-text-1 h2,
 .footer-text-2 h2 {
         font-size: 20px;
-        padding: 25px 0;
+        /* padding: 25px 0; */
 }
 
 .footer-text-1 p,
@@ -436,9 +436,9 @@ p {
 }
 
 .footer-text-1 p {
-        padding: 10px 0;
+        /* padding: 10px 0; */
 }
 
 .footer-text-2 p {
-        padding: 5px 0;
+        /* padding: 5px 0; */
 }
