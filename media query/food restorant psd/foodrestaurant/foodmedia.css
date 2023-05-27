@@ -52,7 +52,9 @@
         }
 
         .dots {
-                top: 255px;
+                top: 195px;
+                right: -20px;
+                /* overflow: hidden; */
         }
 
         .dots2 {
@@ -61,8 +63,9 @@
         }
 
         .dots3 {
-                top: 1620px;
-                right: -95px;
+                /* top: 1620px;
+                right: -45px; */
+                display: none;
         }
 
         .dots4 {
@@ -71,8 +74,9 @@
         }
 
         .dots5 {
-                bottom: -84px;
-                right: -105px;
+                /* bottom: -84px;
+                right: -35px; */
+                display: none;
         }
 
         .dots6 {
@@ -188,16 +192,86 @@
                 width: 100%;
         }
 
+        .header {
+                background-size: auto 495px;
+        }
 
+        .header-main h2 {
+                padding: 25px 0;
+                font-size: 50px;
+        }
 
-        /* .sec1-text {
-                padding: 35px 0;
-        } */
+        .header-main p {
+                padding-bottom: 204px;
+                font-size: 20px;
+        }
+
+        .dots {
+                /* top: 255px; */
+                display: none;
+        }
+
+        .dots2 {
+                /* top: 463px;
+                left: 45px; */
+                display: none;
+        }
+
+        .dots3 {
+                /* top: 1620px;
+                right: -95px; */
+                display: none;
+        }
+
+        .dots4 {
+                /* top: 981px;
+                left: 55px; */
+                display: none;
+        }
+
+        .dots5 {
+                /* bottom: -84px;
+                right: -105px; */
+                display: none;
+        }
+
+        .dots6 {
+                /* bottom: -75px;
+                right: 25px; */
+                display: none;
+        }
+
+        .dots7 {
+                /* bottom: -150px;
+                left: 25px; */
+                display: none;
+        }
+
+        .footer {
+                background-size: auto 565px;
+        }
+
+        .footer-text-1 h2 {
+                padding-top: 190px;
+        }
+
 }
 
 @media (min-width: 992px) {
         .container {
                 width: 960px;
+        }
+
+        .col30 {
+                width: 30%;
+        }
+
+        .col50 {
+                width: 50%;
+        }
+
+        .col20 {
+                width: 20%;
         }
 }
 
