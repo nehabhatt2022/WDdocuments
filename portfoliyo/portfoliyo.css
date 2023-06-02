@@ -1,0 +1,35 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.container {
+        width: 1140px;
+        margin: 0 auto;
+}
+
+.row {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.jc-sp-bt {
+        justify-content: space-between;
+}
+
+.align-item-center {
+        align-items: center;
+}
+
+.pos-rel {
+        position: relative;
+}
+
+.pos-ab {
+        position: absolute;
+}
+
+.name p {
+        font-size: 20px;
+}

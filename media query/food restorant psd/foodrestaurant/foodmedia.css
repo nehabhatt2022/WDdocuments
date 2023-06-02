@@ -9,7 +9,7 @@
 
         .col50 {
                 width: 100%;
-                flex-wrap: wrap-reverse;
+                /* flex-wrap: wrap-reverse; */
         }
 
         .col20 {
@@ -24,8 +24,12 @@
                 display: none;
         }
 
-        .header {
+        /* .header {
                 background-size: auto 515px;
+        } */
+        .header {
+                background-size: cover;
+                background-position: 0px -35px;
         }
 
         .logo {
@@ -58,7 +62,7 @@
         }
 
         .dots2 {
-                top: 463px;
+                top: 425px;
                 left: 45px;
         }
 
@@ -86,7 +90,7 @@
 
         .dots7 {
                 bottom: -150px;
-                left: 25px;
+                left: 362px;
         }
 
         .sec1 {
@@ -136,8 +140,13 @@
                 display: none;
         }
 
-        .footer {
+        /* .footer {
                 background-size: auto 565px;
+        } */
+
+        .footer {
+                background-size: cover;
+                background-position: -6px 0;
         }
 
         .footer-main {
@@ -164,6 +173,7 @@
         .footer-text-2 p {
                 padding: 5px 0;
         }
+
 }
 
 @media (min-width: 768px) {
@@ -177,7 +187,7 @@
 
         .col50 {
                 width: 100%;
-                flex-wrap: wrap-reverse;
+                /* flex-wrap: wrap-reverse; */
         }
 
         .col20 {
@@ -192,8 +202,12 @@
                 width: 100%;
         }
 
-        .header {
+        /* .header {
                 background-size: auto 495px;
+        } */
+        .header {
+                background-size: cover;
+                background-position: 0px -35px;
         }
 
         .header-main h2 {
@@ -247,8 +261,13 @@
                 display: none;
         }
 
-        .footer {
+        /* .footer {
                 background-size: auto 565px;
+        } */
+
+        .footer {
+                background-size: cover;
+                background-position: -7px 2px;
         }
 
         .footer-text-1 h2 {
@@ -268,15 +287,76 @@
 
         .col50 {
                 width: 50%;
+                /* flex-direction: row; */
         }
 
         .col20 {
                 width: 20%;
+        }
+
+        .header {
+                background-size: cover;
+                background-position: 0px -46px;
+        }
+
+        .direction {
+                flex-direction: row;
+        }
+
+        .footer {
+                background-size: cover;
+                background-position: -1px 0;
+        }
+
+        /* .footer {
+                background-size: auto 421px;
+        } */
+        .footer-text-2 {
+                padding: 0;
+        }
+
+        .footer-text-2 h2 {
+                padding-top: 190px;
         }
 }
 
 @media (min-width: 1200px) {
         .container {
                 width: 1140px;
+        }
+
+        .col30 {
+                width: 30%;
+        }
+
+        .col50 {
+                width: 50%;
+                /* flex-direction: row; */
+        }
+
+        .col20 {
+                width: 20%;
+        }
+
+        .header {
+                background-size: cover;
+                background-position: 0px -86px;
+        }
+
+        .header-main h2 {
+                padding-top: 90px;
+        }
+
+        .header-main p {
+                padding-bottom: 204px
+        }
+
+        .sec5-text {
+                width: 60%;
+        }
+
+        .footer {
+                background-size: cover;
+                background-position: -1px 0;
         }
 }
