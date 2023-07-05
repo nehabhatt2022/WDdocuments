@@ -6,53 +6,63 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="foodmedia.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/mediaquery.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
-        <header class="header po-rel">
+        <header class="header po-rel" id="home">
                 <div class="bg1">
                         <div class="Shape1 pos-ab ">
-                                <img src="Shape1.png" alt="">
+                                <img src="./img/Shape1.png" alt="">
                         </div>
                         <div class="pos-ab Shape2">
-                                <img src="Shape (1).png" alt="">
+                                <img src="./img/Shape (1).png" alt="">
                         </div>
                         <div class="container">
                                 <div class="header-nav">
                                         <nav class="row jc-sp-bt">
                                                 <div class="logo">
-                                                        <img src="logo.png" alt="">
+                                                        <img src="./img/logo.png" alt="">
                                                 </div>
                                                 <div class="menu">
 
                                                         <li>
-                                                                <p>Home</p>
+                                                                <p><a href="#home" class="nav-link">Home</a></p>
                                                         </li>
                                                         <li>
-                                                                <p>Our Menu</p>
+                                                                <p><a href="#menu" class="nav-link">Our Menu</a></p>
                                                         </li>
                                                         <li>
-                                                                <p>Promo</p>
+                                                                <p><a href="#promo" class="nav-link">Promo</a></p>
                                                         </li>
                                                         <li>
-                                                                <p>Order</p>
+                                                                <p><a href="#order" class="nav-link">Order</a></p>
                                                         </li>
+                                                </div>
+                                                <div class="hamburger">
+                                                        <span class="bar"></span>
+                                                        <span class="bar"></span>
+                                                        <span class="bar"></span>
                                                 </div>
                                         </nav>
                                         <div class="header-main">
-                                                <h2>Healthy Food Restaurant</h2>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                <h2 div data-aos="zoom-in" data-aos-duration="3000">Healthy Food
+                                                        Restaurant</h2>
+                                                <p div data-aos="zoom-in" data-aos-duration="3000">Lorem ipsum dolor sit
+                                                        amet consectetur adipisicing elit.</p>
                                                 <div class="dots pos-ab">
-                                                        <img src="dots.png" alt="">
+                                                        <img src="./img/dots.png" alt="">
                                                 </div>
                                                 <div class="dots2 pos-ab">
-                                                        <img src="dots2.png" alt="">
+                                                        <img src="./img/dots2.png" alt="">
                                                 </div>
                                         </div>
 
@@ -62,7 +72,7 @@
         </header>
 
 
-        <section class="sec1">
+        <section class="sec1" id="menu">
                 <div class="container">
                         <div class="sec1-text">
                                 <h2>POPULAR MENU</h2>
@@ -71,7 +81,7 @@
                                 <div class="col30">
                                         <div class="box1">
                                                 <div class="box1-img">
-                                                        <img src="box1.png" alt="">
+                                                        <img src="./img/box1.png" alt="">
                                                 </div>
                                                 <div class="box1-text">
                                                         <h3>noodles</h3>
@@ -84,7 +94,7 @@
                                 <div class="col30">
                                         <div class="box1">
                                                 <div class="box1-img">
-                                                        <img src="box2.png" alt="">
+                                                        <img src="./img/box2.png" alt="">
                                                 </div>
                                                 <div class="box1-text">
                                                         <h3>noodles</h3>
@@ -97,7 +107,7 @@
                                 <div class="col30">
                                         <div class="box1">
                                                 <div class="box1-img">
-                                                        <img src="box3.png" alt="">
+                                                        <img src="./img/box3.png" alt="">
                                                 </div>
                                                 <div class="box1-text">
                                                         <h3>noodles</h3>
@@ -112,7 +122,7 @@
                                 <input type="button" value="READ MORE">
                         </div>
                         <div class="dots3 pos-ab">
-                                <img src="dots3.png" alt="">
+                                <img src="./img/dots3.png" alt="">
                         </div>
                 </div>
         </section>
@@ -123,7 +133,7 @@
                 <div class="row aling">
                         <div class="col50">
                                 <div class="sec2-img">
-                                        <img src="sec2.png" alt="">
+                                        <img src="./img/sec2.png" alt="">
                                 </div>
                         </div>
                         <div class="col50">
@@ -138,7 +148,7 @@
                                         </div>
                                 </div>
                                 <div class="dots4 pos-ab">
-                                        <img src="dots3.png" alt="">
+                                        <img src="./img/dots3.png" alt="">
                                 </div>
                         </div>
                 </div>
@@ -157,11 +167,11 @@
                         </div>
                         <div class="col50">
                                 <div class="sec2-img">
-                                        <img src="sec3.png" alt="">
+                                        <img src="./img/sec3.png" alt="">
                                 </div>
                         </div>
                         <div class="dots5 pos-ab">
-                                <img src="dots2.png" alt="">
+                                <img src="./img/dots2.png" alt="">
                         </div>
                 </div>
         </section>
@@ -209,7 +219,7 @@
         <section>
                 <div class="sec4">
                         <div class="container">
-                                <div class="sec4-text">
+                                <div class="sec4-text" div data-aos="zoom-in" data-aos-duration="3000">
                                         <h2>Free Delivery</h2>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minus voluptas
                                                 deserunt
@@ -219,7 +229,7 @@
                                         </div>
                                 </div>
                                 <div class="dots6 pos-ab">
-                                        <img src="dots3.png" alt="">
+                                        <img src="./img/dots3.png" alt="">
                                 </div>
                         </div>
                 </div>
@@ -229,7 +239,7 @@
                 <div class="sec5">
                         <div class="container">
                                 <div class="sec5-text">
-                                        <img src="Quote.png" alt="">
+                                        <img src="./img/Quote.png" alt="">
                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error enim iste
                                                 libero,
                                                 commodi explicabo sequi sunt, ipsam et minus blanditiis animi quisquam
@@ -243,7 +253,7 @@
                                         </div>
                                 </div>
                                 <div class="dots7 pos-ab">
-                                        <img src="dots3.png" alt="">
+                                        <img src="./img/dots3.png" alt="">
                                 </div>
                         </div>
                 </div>
@@ -253,10 +263,10 @@
                 <div class="footer po-rel">
                         <div class="footer-main">
                                 <div class="footer2 pos-ab">
-                                        <img src="footer2.png" alt="">
+                                        <img src="./img/footer2.png" alt="">
                                 </div>
                                 <div class="footer3 pos-ab">
-                                        <img src="footer3.png" alt="">
+                                        <img src="./img/footer3.png" alt="">
                                 </div>
 
                                 <div class="container">
@@ -310,6 +320,13 @@
                         </div>
                 </div>
         </footer>
+
+        <script src="./js/toggle.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+                AOS.init();
+        </script>
 </body>
 
 </html>

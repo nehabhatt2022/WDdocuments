@@ -1,0 +1,258 @@
+@media (min-width: 576px) {
+        .container {
+                width: 540px;
+        }
+
+        .col30 {
+                width: 100%;
+        }
+
+        .col50 {
+                width: 100%;
+        }
+
+        .col23 {
+                width: 100%;
+        }
+
+        .col40 {
+                width: 100%;
+        }
+
+        .col60 {
+                width: 100%;
+        }
+
+        .col20 {
+                width: 100%;
+        }
+
+        .hd-sec2-icon {
+                text-align: center;
+        }
+
+        .hd-sec2-input {
+                text-align: center;
+        }
+
+        .hd-sec2-search {
+                top: 8px;
+                right: 190px;
+        }
+
+        .menu {
+                font-size: 11px;
+        }
+
+        .sec2 {
+                padding: 10px 0;
+        }
+
+        .sec2-img1,
+        .sec2-img2 {
+                width: 450px;
+                height: 500px;
+        }
+
+        .footer1-input {
+                text-align: center;
+        }
+
+}
+
+@media (min-width: 768px) {
+        .container {
+                width: 720px;
+        }
+
+        .col30 {
+                width: 30%;
+        }
+
+        .col50 {
+                width: 50%;
+        }
+
+        .col23 {
+                width: 23%;
+        }
+
+        .col40 {
+                width: 40%;
+        }
+
+        .col60 {
+                width: 60%;
+        }
+
+        .col20 {
+                width: 20%;
+        }
+
+        .menu {
+                font-size: 15px;
+        }
+
+        .hd-sec2-search {
+                right: 30px;
+        }
+
+        .sec2 {
+                padding: 50px 0;
+        }
+
+        .sec2-text {
+                padding: 20px;
+        }
+
+        .sec2-img1,
+        .sec2-img2 {
+                width: 300px;
+                height: 500px;
+        }
+
+        .sec3-text-1 {
+                padding: 0;
+        }
+
+        .sec4-text {
+                padding: 0;
+        }
+
+        .sec4-text h4 {
+                line-height: 45px;
+        }
+
+        .sec4-text p {
+                font-size: 12px;
+                padding: 0;
+        }
+
+        .sec5-text {
+                padding: 0;
+        }
+
+        .footer1-input input {
+                margin: 5px 0;
+        }
+}
+
+@media (min-width: 992px) {
+        .container {
+                width: 960px;
+        }
+
+        .col30 {
+                width: 30%;
+        }
+
+        .col50 {
+                width: 50%;
+        }
+
+        .col23 {
+                width: 23%;
+        }
+
+        .col40 {
+                width: 40%;
+        }
+
+        .col60 {
+                width: 60%;
+        }
+
+        .col20 {
+                width: 20%;
+        }
+
+        .hd-sec2-search {
+                /* top: 8px; */
+                right: 65px;
+        }
+
+        .sec2-text {
+                padding: 30px;
+        }
+
+        .sec2-img1,
+        .sec2-img2 {
+                width: 400px;
+                height: 450px;
+        }
+
+        .sec4-text {
+                padding: 20px 40px;
+        }
+
+        .sec4-text h4 {
+                line-height: 55px;
+        }
+
+        .sec4-text p {
+                font-size: 15px;
+                padding: 20px 0;
+        }
+
+}
+
+
+@media (min-width: 1200px) {
+        .container {
+                width: 1140px;
+        }
+
+        .col30 {
+                width: 30%;
+        }
+
+        .col50 {
+                width: 50%;
+        }
+
+        .col23 {
+                width: 23%;
+        }
+
+        .col40 {
+                width: 40%;
+        }
+
+        .col60 {
+                width: 60%;
+        }
+
+        .col20 {
+                width: 20%;
+        }
+
+        .hd-sec2-search {
+                right: 92px;
+        }
+
+        .hd-sec2-icon {
+                text-align: left;
+        }
+
+        .hd-sec2-input {
+                text-align: right;
+        }
+
+        .hd-sec2-search {
+                right: 5px;
+        }
+
+        .sec2-text {
+                padding: 50px;
+        }
+
+        .sec2-img {
+                padding: 30px 0;
+        }
+
+        .sec2-img1,
+        .sec2-img2 {
+                width: 450px;
+                height: 500px;
+        }
+}

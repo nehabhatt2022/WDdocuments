@@ -5,6 +5,7 @@ const header = document.querySelector(".header");
 hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
         header.classList.toggle("active");
+        console.log("hellow")
 })
 
 console.log('hamburger')

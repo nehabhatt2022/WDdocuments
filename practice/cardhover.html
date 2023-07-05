@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                body {
+                        height: 900px;
+                }
+
+                .container {
+                        width: 1140px;
+                        margin: 0 auto;
+                }
+
+                .jc-sp-bt {
+                        justify-content: space-between;
+                }
+
+                .row {
+                        display: flex;
+                }
+
+                .col30 {
+                        width: 30%;
+                }
+
+                .card img {
+                        width: 100%;
+                        border-radius: 10px;
+                        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+                }
+
+                .card {
+                        position: relative;
+                        width: 300px;
+                        height: 200px;
+                        border-radius: 10px;
+                        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+                        transition: 0.3s;
+                        padding: 30px 50px;
+                        background: #fff;
+                        cursor: pointer;
+                        margin-right: 30px;
+                }
+
+                .card:hover {
+                        height: 320px;
+                }
+
+                .img {
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        transform: translateY(-80px);
+                        z-index: 99;
+                }
+
+                .content {
+                        padding: 10px 20px;
+                        text-align: center;
+                        transform: translateY(-450px);
+                        opacity: 0;
+                        transition: 0.3s;
+                }
+
+                .card:hover>.content {
+                        opacity: 1;
+                        transform: translateY(-180px);
+                }
+
+                .content h2 {
+                        color: #7f9ead;
+                }
+
+                .align-center {
+                        align-items: center;
+                }
+        </style>
+</head>
+
+<body>
+        <div class="container">
+                <div class="row jc-sp-bt align-center">
+                        <div class="col30">
+                                <div class="card">
+                                        <div class="img">
+                                                <img src="cardhover.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                                <h2>card</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sunt
+                                                        architecto
+                                                        ipsum
+                                                        quam
+                                                        repudiandae quae dicta unde cum corporis distinctio, iure sed
+                                                        aliquid
+                                                        tenetur
+                                                        molestiae
+                                                        at illum debitis. Nesciunt, obcaecati.</p>
+                                                <a href="">click here</a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col30">
+                                <div class="card">
+                                        <div class="img">
+                                                <img src="cardhover.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                                <h2>card</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sunt
+                                                        architecto
+                                                        ipsum
+                                                        quam
+                                                        repudiandae quae dicta unde cum corporis distinctio, iure sed
+                                                        aliquid
+                                                        tenetur
+                                                        molestiae
+                                                        at illum debitis. Nesciunt, obcaecati.</p>
+                                                <a href="">click here</a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col30">
+                                <div class="card">
+                                        <div class="img">
+                                                <img src="cardhover.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                                <h2>card</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sunt
+                                                        architecto
+                                                        ipsum
+                                                        quam
+                                                        repudiandae quae dicta unde cum corporis distinctio, iure sed
+                                                        aliquid
+                                                        tenetur
+                                                        molestiae
+                                                        at illum debitis. Nesciunt, obcaecati.</p>
+                                                <a href="">click here</a>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</body>
+
+</html>
