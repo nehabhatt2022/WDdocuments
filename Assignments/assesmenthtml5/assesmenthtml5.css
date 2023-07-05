@@ -1,0 +1,46 @@
+form {
+        text-align: center;
+}
+
+h1 {
+        text-align: center;
+        padding: 23px;
+        background-color: skyblue;
+        color: white;
+}
+
+#clear {
+        border: 3px solid gray;
+        border-radius: 3px;
+        padding: 20px 70px;
+        background-color: red;
+}
+
+.formstyle {
+        width: 350px;
+        margin: 0 auto;
+        border: 3px solid skyblue;
+        border-radius: 5px;
+        padding: 20px;
+}
+
+
+
+input {
+        background-color: green;
+        color: white;
+        border: 3px solid gray;
+        border-radius: 5px;
+        padding: 30px;
+        margin: 5px;
+        font-size: 15px;
+
+}
+
+
+#calc {
+        border: 5px solid black;
+        border-radius: 3px;
+        padding: 20px 75px;
+        margin: auto;
+}
